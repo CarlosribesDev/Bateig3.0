@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandsLog Aom3Version="4.21.1.0" Date="2022-02-15 06:49:18.716">
+  <Data>
+    <Item Name="Config" Value="CME_00002055_CONFIG.xml" />
+    <Item Name="Schema" Value="CME_00002055_CUT_SCHEME.xml" />
+  </Data>
+  <Command Name="DiskCut" InputSource="GetAvailableSeparationCuts" InputKey="PC662403_TP03" />
+  <Command Name="DiskCut" InputSource="GetAvailableSeparationCuts" InputKey="PC662403_TP02,PC662404_TP00,PC662405_TP00,PC662407_TP01" />
+  <Command Name="PickAndPlacePartition" InputSource="GetMovablePartitions" InputKey="SLAB00000000046935_01_01">
+    <Data>
+      <Item Name="X" Value="2563.882" />
+      <Item Name="Y" Value="2286.82348321803" />
+      <Item Name="Rotation" Value="0" />
+      <Item Name="Parent" Value="" />
+    </Data>
+  </Command>
+  <Command Name="DiskCut" InputSource="GetAvailableSeparationCuts" InputKey="PC662403_TP01,PC662406_TP02,PC662407_TP02" />
+  <Command Name="PickAndPlacePartition" InputSource="GetMovablePartitions" InputKey="SLAB00000000046935_01_02_02">
+    <Data>
+      <Item Name="X" Value="3938.92789158241" />
+      <Item Name="Y" Value="802.467" />
+      <Item Name="Rotation" Value="0" />
+      <Item Name="Parent" Value="" />
+    </Data>
+  </Command>
+  <Command Name="CompletePartitionWorkings" InputSource="GetCompletablePartitions" InputKey="SLAB00000000046935_01_02_02" />
+  <Command Name="CompletePartitionWorkings" InputSource="GetCompletablePartitions" InputKey="SLAB00000000046935_01_01" />
+  <Command Name="CompletePartitionWorkings" InputSource="GetCompletablePartitions" InputKey="SLAB00000000046935_01_02_01" />
+  <Command Name="CompletePartitionWorkings" InputSource="GetCompletablePartitions" InputKey="SLAB00000000046935_02_01" />
+</CommandsLog>

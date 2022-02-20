@@ -1,0 +1,33 @@
+N10 ;************************* Start Program *****
+N20 ;TABLE(1) ;Table Select
+N30 HOME
+N40 SETORI(18) ;Origin Select
+N50 STOPRE
+N60 ;************************* Load *****
+N70 STOPRE
+N80 R308=1
+N90 R361=0.000 ;Time from start
+N100 R362=0.000 ;Time to end
+N110 STOPRE
+N120 ;FIXLOAD(,100) ;Slab Load
+N130 ;************************* ToolChange *****
+N140 STOPRE
+N150 R308=2
+N160 R361=0.000 ;Time from start
+N170 R362=0.000 ;Time to end
+N180 STOPRE
+N190 TOOL(1,1,0,0.0,202.465) ;Tool Change
+N200 SETORI(18)
+N210 ;************************* Move *****
+N220 STOPRE
+N230 R308=3
+N240 R361=0.000 ;Time from start
+N250 R362=0.000 ;Time to end
+N260 STOPRE
+N270 ;************************* EndProgram *****
+N280 STOPRE
+N290 R308=3
+N300 R361=0.000 ;Time from start
+N310 R362=0.000 ;Time to end
+N320 STOPRE
+N330 M30 ;End program

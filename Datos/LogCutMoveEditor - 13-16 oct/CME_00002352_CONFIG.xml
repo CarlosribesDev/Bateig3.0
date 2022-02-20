@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <MachinePlugIn Aom3Version="4.21.1" ConfigUpdaterVersion="4.1.0">
+    <!--Nome del plugin-->
+    <Name>SmartFlex</Name>
+    <MachineInfo>
+      <!--Direzione di lavoro macchina-->
+      <WorkingDirection>Right</WorkingDirection>
+      <!--Posizioni di carico lastra-->
+      <LoadSlabPosition>
+        <LimitNeg>140</LimitNeg>
+        <LimitPos>3640</LimitPos>
+      </LoadSlabPosition>
+      <Limits>
+        <Limit Axe="X" Min="-0.5" Max="4910.5" />
+        <Limit Axe="Y" Min="-0.5" Max="3800.5" />
+        <Boundary>
+          <Zone>
+            <Attributes>
+              <Key value="BOUNDARY" />
+              <Type value="Boundary" />
+              <ParentKey value="" />
+            </Attributes>
+            <MatrixRT m00="1" m01="0" m02="0" m10="0" m11="1" m12="0" m20="0" m21="0" m22="1" />
+            <Path Type="MACHINE_BOUNDARY" Mode="EN_PATH_MODE_UNKNOW">
+              <Attributes>
+                <__INTERNAL_NAME_ value="BOUNDARY" />
+              </Attributes>
+              <Segment X1="-822.5" Y1="0" X2="6122.5" Y2="0" />
+              <Segment X1="6122.5" Y1="0" X2="6122.5" Y2="4950" />
+              <Segment X1="6122.5" Y1="4950" X2="-822.5" Y2="4950" />
+              <Segment X1="-822.5" Y1="4950" X2="-822.5" Y2="0" />
+            </Path>
+          </Zone>
+          <PathCollection OriginalType="PathCollection" Name="">
+            <Path Type="BOUNDARY" Mode="EN_PATH_MODE_UNKNOW">
+              <Attributes>
+                <__INTERNAL_NAME_ value="SPALLA1" />
+                <Key value="SPALLA1" />
+                <Type value="BOUNDARY" />
+                <ParentKey value="" />
+              </Attributes>
+              <MatrixRT m00="1" m01="0" m02="-887.5" m10="0" m11="1" m12="0" m20="0" m21="0" m22="1" />
+              <Segment X1="0" Y1="0" X2="0" Y2="4950" />
+              <Segment X1="0" Y1="4950" X2="422" Y2="4950" />
+              <Segment X1="422" Y1="4950" X2="422" Y2="0" />
+              <Segment X1="422" Y1="0" X2="0" Y2="0" />
+            </Path>
+            <Path Type="BOUNDARY" Mode="EN_PATH_MODE_UNKNOW">
+              <Attributes>
+                <__INTERNAL_NAME_ value="SPALLA2" />
+                <Key value="SPALLA2" />
+                <Type value="BOUNDARY" />
+                <ParentKey value="" />
+              </Attributes>
+              <MatrixRT m00="1" m01="0" m02="5810.5" m10="0" m11="1" m12="0" m20="0" m21="0" m22="1" />
+              <Segment X1="0" Y1="0" X2="0" Y2="4950" />
+              <Segment X1="0" Y1="4950" X2="422" Y2="4950" />
+              <Segment X1="422" Y1="4950" X2="422" Y2="0" />
+              <Segment X1="422" Y1="0" X2="0" Y2="0" />
+            </Path>
+          </PathCollection>
+        </Boundary>
+      </Limits>
+    </MachineInfo>
+    <!--Banco e Depositi-->
+    <Repositories Number="1">
+      <!--Banco (l'id deve essere "1")-->
+      <Repository Id="1" Parent="" Key="TABLE" Number="1">
+        <Dimension Length="3800" Width="2290" />
+        <!--L'offset del banco deve tener conto dei pivot del mandrino con cui  stata letta l'origine-->
+        <Position OffsetX="1046.516" OffsetY="758.697" OffsetZ="-585.045" Angle="0" />
+        <!--Il centro banco si calcola sottraendo dalle quote calcolate, gli offset x e y.-->
+        <Centre X="1912.034" Y="1146.3579999999997" />
+        <!-- Senso di rotazione del banco per angoli positivi -->
+        <Rotation>ccw</Rotation>
+        <!-- Nome dell'asse logico di rotazione del bancoc -->
+        <LogicalAxes Rotation="W" />
+        <!-- Limiti dell'asse di rotazione del banco -->
+        <Limits>
+          <!-- ATTENZIONE i limiti di rotazione son espressi in gradi per semplicità -->
+          <Limit Axe="W" Min="-180" Max="180" />
+        </Limits>
+        <DefaultPosition>0</DefaultPosition>
+      </Repository>
+    </Repositories>
+    <!--Teste Ventose-->
+    <SuckersHeads Number="1">
+      <Suckers Id="1">
+        <Shapes Number="7">
+          <Shape Id="1">
+            <Zone>
+              <Path Type="SUCKER1" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_8" />
+                </Attributes>
+                <Segment X1="596.005901564705" Y1="138.999989405773" X2="346.132952564706" Y2="138.999988405772" />
+                <Arc Xc="346.132952564706" Yc="115.999988405772" R="23" Alpha="1.5707963267948" Beta="1.95266386024926" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="350" Alpha="0.0939719826792942" Beta="0.287895550774969" />
+                <Arc Xc="371.354306564706" Yc="11.9999824057724" R="23" Alpha="3.2355646362691" Beta="1.4768243441153" />
+                <Segment X1="371.354306564706" Y1="-11.0000175942276" X2="610.998390564706" Y2="-11.0000175942276" />
+                <Arc Xc="610.998390564706" Yc="11.9999824057724" R="23" Alpha="4.7123889803844" Beta="1.62801706849487" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="635" Alpha="0.057220741699682" Beta="0.171902906002895" />
+                <Arc Xc="596.005901564705" Yc="115.999989405772" R="23" Alpha="0.229123647702583" Beta="1.34167267909222" />
+              </Path>
+            </Zone>
+          </Shape>
+          <Shape Id="2">
+            <Zone>
+              <Path Type="SUCKER2" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_10" />
+                </Attributes>
+                <Segment X1="547.985205564706" Y1="272.499986405772" X2="254.701335564706" Y2="272.499986405772" />
+                <Arc Xc="254.701335564706" Yc="249.499986405772" R="23" Alpha="1.5707963267948" Beta="2.38994236859523" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="350" Alpha="0.546976448637798" Beta="0.272169593162433" />
+                <Arc Xc="318.579695564705" Yc="170.999984405772" R="23" Alpha="3.68856910222759" Beta="1.02381987815681" />
+                <Segment X1="318.579695564705" Y1="147.999984405772" X2="580.437796564706" Y2="147.999984405772" />
+                <Arc Xc="580.437796564706" Yc="170.999984405772" R="23" Alpha="4.7123889803844" Beta="1.89335408160818" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="635" Alpha="0.322557754812991" Beta="0.138908433878324" />
+                <Arc Xc="547.985205564706" Yc="249.499986405772" R="23" Alpha="0.461466188691314" Beta="1.10933013810349" />
+              </Path>
+            </Zone>
+          </Shape>
+          <Shape Id="3">
+            <Zone>
+              <Path Type="SUCKER4" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_6" />
+                </Attributes>
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="441" Alpha="0.868860070027207" Beta="1.40387251353539" />
+                <Arc Xc="-273.129979435294" Yc="299.999998405772" R="18.0000000000001" Alpha="2.2727325835626" Beta="2.43965639682181" />
+                <Segment X1="-273.129979435294" Y1="281.999998405772" X2="-176.337718435294" Y2="281.999998405772" />
+                <Arc Xc="-176.337718435294" Yc="299.999998405772" R="18" Alpha="4.7123889803844" Beta="0.499718692080624" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="350" Alpha="1.07107763471458" Beta="0.999437384160647" />
+                <Arc Xc="176.337770564706" Yc="299.999999405772" R="18" Alpha="4.21267028830438" Beta="0.499718692080023" />
+                <Segment X1="176.337770564706" Y1="281.999999405772" X2="273.130031564706" Y2="281.999999405772" />
+                <Arc Xc="273.130031564706" Yc="299.999999405772" R="18" Alpha="4.7123889803844" Beta="2.43965639682239" />
+              </Path>
+            </Zone>
+          </Shape>
+          <Shape Id="4">
+            <Zone>
+              <Path Type="SUCKER6" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_12" />
+                </Attributes>
+                <Arc Xc="-547.985159435294" Yc="249.499972405772" R="23" Alpha="1.5707963267948" Beta="1.10933015555699" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="635.000000000001" Alpha="2.68012648235178" Beta="0.138908433878324" />
+                <Arc Xc="-580.437748435294" Yc="170.999972405772" R="23" Alpha="2.81903491623011" Beta="1.89335406415429" />
+                <Segment X1="-580.437747435294" Y1="147.999972405772" X2="-318.579642435294" Y2="147.999983405772" />
+                <Arc Xc="-318.579643435294" Yc="170.999983405772" R="22.9999999999999" Alpha="4.7123889803844" Beta="1.0238198781574" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="350" Alpha="2.32244662924286" Beta="0.27216957570914" />
+                <Arc Xc="-254.701283435294" Yc="249.499985405772" R="23.0000000000004" Alpha="5.46403928283266" Beta="2.38994235114173" />
+                <Segment X1="-254.701284435294" Y1="272.499985405773" X2="-547.985160435294" Y2="272.499972405772" />
+              </Path>
+            </Zone>
+          </Shape>
+          <Shape Id="5">
+            <Zone>
+              <Path Type="SUCKER7" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_14" />
+                </Attributes>
+                <Arc Xc="-346.132900435295" Yc="115.999988405772" R="23.0000000000001" Alpha="5.90131777372534" Beta="1.95266386024905" />
+                <Segment X1="-346.132901435294" Y1="138.999988405772" X2="-596.005852435294" Y2="138.999976405772" />
+                <Arc Xc="-596.005851435294" Yc="115.999976405772" R="23" Alpha="1.5707963267948" Beta="1.34167269654572" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="635" Alpha="2.91246902334052" Beta="0.171902906002895" />
+                <Arc Xc="-610.998338435294" Yc="11.9999714057725" R="23" Alpha="3.08437192934341" Beta="1.62801705104099" />
+                <Segment X1="-610.998337435294" Y1="-11.0000285942275" X2="-371.354252435294" Y2="-11.0000185942275" />
+                <Arc Xc="-371.354253435294" Yc="11.9999814057725" R="23" Alpha="4.7123889803844" Beta="1.47682434411591" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="350" Alpha="2.75972512013554" Beta="0.287895550774969" />
+              </Path>
+            </Zone>
+          </Shape>
+          <Shape Id="6">
+            <Zone>
+              <Path Type="SUCKER8" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_2" />
+                </Attributes>
+                <Segment X1="592.982108564706" Y1="86.4999994057724" X2="373.968941564706" Y2="86.4999994057724" />
+                <Arc Xc="373.968941564706" Yc="68.4999994057724" R="18" Alpha="1.5707963267948" Beta="1.81075485632091" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="367" Alpha="0.215960496657084" Beta="0.0239980328688265" />
+                <Arc Xc="376.056870564705" Yc="59.4999994057724" R="18" Alpha="3.35755315024688" Beta="1.35483583013752" />
+                <Segment X1="376.056870564705" Y1="41.4999994057724" X2="594.301086564705" Y2="41.4999994057724" />
+                <Arc Xc="594.301086564705" Yc="59.4999994057724" R="18" Alpha="4.7123889803844" Beta="1.70873332786514" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="618" Alpha="0.137937001069956" Beta="0.0151603662151354" />
+                <Arc Xc="592.982108564706" Yc="68.4999994057724" R="18" Alpha="0.1530973672851" Beta="1.4176989595097" />
+              </Path>
+            </Zone>
+          </Shape>
+          <Shape Id="7">
+            <Zone>
+              <Path Type="SUCKER9" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_4" />
+                </Attributes>
+                <Arc Xc="-376.056817435294" Yc="59.4999984057723" R="18" Alpha="4.7123889803844" Beta="1.35483583013812" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="367" Alpha="2.90163412406389" Beta="0.0239980328688265" />
+                <Arc Xc="-373.968889435294" Yc="68.4999984057723" R="18" Alpha="6.04322677765369" Beta="1.8107548563207" />
+                <Segment X1="-373.968889435294" Y1="86.4999984057723" X2="-592.982056435294" Y2="86.4999984057723" />
+                <Arc Xc="-592.982056435294" Yc="68.4999984057723" R="18" Alpha="1.5707963267948" Beta="1.41769895950991" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="618" Alpha="2.98849528630471" Beta="0.0151603662151354" />
+                <Arc Xc="-594.301033435294" Yc="59.4999984057723" R="18" Alpha="3.00365565251984" Beta="1.70873332786456" />
+                <Segment X1="-594.301033435294" Y1="41.4999984057723" X2="-376.056817435294" Y2="41.4999984057723" />
+              </Path>
+            </Zone>
+          </Shape>
+        </Shapes>
+        <!--Barra delle ventose-->
+        <Sucker_Bar Id="1" IdParent="0" Key="SUCKERBAR" SuckNumber="7">
+          <!--Costruzione supporto ventose-->
+          <Construction>
+            <Zone>
+              <Path Type="LAYOUT" Mode="EN_PATH_MODE_UNKNOW">
+                <Attributes>
+                  <__INTERNAL_NAME_ value="INST_0" />
+                </Attributes>
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="470" Alpha="0.994038976064472" Beta="1.15351471891415" />
+                <Arc Xc="-556.214861435294" Yc="831.999998405772" R="550" Alpha="4.7123889803844" Beta="0.576757368184021" />
+                <Arc Xc="556.214911564706" Yc="831.999999405772" R="550" Alpha="4.13563162965427" Beta="0.576757350730127" />
+                <Segment X1="561.849649564706" Y1="281.999999405772" X2="556.214912564705" Y2="281.999999405772" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="650" Alpha="0.0317513613648387" Beta="0.437681923749273" />
+                <Segment X1="-556.214860435294" Y1="281.999998405772" X2="-561.849598435294" Y2="281.999998405772" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="650" Alpha="2.67215936847569" Beta="0.437681923749272" />
+                <Arc Xc="561.849649564706" Yc="261.999999405772" R="20" Alpha="0.46943328511412" Beta="1.10136304168068" />
+                <Arc Xc="629.682485564705" Yc="-3.00000059422757" R="20.0000000000001" Alpha="4.7123889803844" Beta="1.60254768816002" />
+                <Arc Xc="-561.849598435294" Yc="261.999998405772" R="20" Alpha="1.5707963267948" Beta="1.10136304168089" />
+                <Arc Xc="-629.682433435294" Yc="-3.00000159422768" R="20.0000000000001" Alpha="3.10984129222496" Beta="1.60254768815944" />
+                <Segment X1="-629.682433435294" Y1="-23.0000015942277" X2="-349.857087435294" Y2="-23.0000015942277" />
+                <Arc Xc="2.65647056285E-05" Yc="-23.0000005942276" R="340" Alpha="0.0285753159118148" Beta="3.08444202176617" />
+                <Segment X1="629.682485564705" Y1="-23.0000005942276" X2="349.857139564706" Y2="-23.0000005942276" />
+                <Arc Xc="-349.857087435294" Yc="-13.0000015942277" R="10" Alpha="4.7123889803844" Beta="1.54222101088339" />
+                <Arc Xc="349.857139564706" Yc="-13.0000005942276" R="9.99999999999996" Alpha="3.17016796950161" Beta="1.54222101088279" />
+              </Path>
+              <Zone>
+                <Path Type="REFERENCE" Mode="EN_PATH_MODE_UNKNOW">
+                  <Attributes>
+                    <__INTERNAL_NAME_ value="INST_32" />
+                  </Attributes>
+                  <Segment X1="2.8E-07" Y1="-5" X2="-2.8E-07" Y2="5" />
+                  <Segment X1="-2.8E-07" Y1="5" X2="2.8E-07" Y2="-5" />
+                  <Segment X1="5" Y1="0" X2="-5" Y2="0" />
+                </Path>
+              </Zone>
+            </Zone>
+          </Construction>
+          <Sucker Id="1" Group="1" Shape="1">
+            <!--Posizione ventosa-->
+            <Position OffsetX="0" OffsetY="0" Angle="0" />
+            <!--Max peso sollevabile-->
+            <MaxWeight>120</MaxWeight>
+          </Sucker>
+          <Sucker Id="2" Group="2" Shape="2">
+            <!--Posizione ventosa-->
+            <Position OffsetX="0" OffsetY="0" Angle="0" />
+            <!--Max peso sollevabile-->
+            <MaxWeight>120</MaxWeight>
+          </Sucker>
+          <Sucker Id="4" Group="4" Shape="3">
+            <!--Posizione ventosa-->
+            <Position OffsetX="0" OffsetY="0" Angle="0" />
+            <!--Max peso sollevabile-->
+            <MaxWeight>120</MaxWeight>
+          </Sucker>
+          <Sucker Id="6" Group="6" Shape="4">
+            <!--Posizione ventosa-->
+            <Position OffsetX="0" OffsetY="0" Angle="0" />
+            <!--Max peso sollevabile-->
+            <MaxWeight>120</MaxWeight>
+          </Sucker>
+          <Sucker Id="7" Group="7" Shape="5">
+            <!--Posizione ventosa-->
+            <Position OffsetX="0" OffsetY="0" Angle="0" />
+            <!--Max peso sollevabile-->
+            <MaxWeight>120</MaxWeight>
+          </Sucker>
+          <Sucker Id="8" Group="8" Shape="6">
+            <!--Posizione ventosa-->
+            <Position OffsetX="0" OffsetY="0" Angle="0" />
+            <!--Max peso sollevabile-->
+            <MaxWeight>47</MaxWeight>
+          </Sucker>
+          <Sucker Id="9" Group="9" Shape="7">
+            <!--Posizione ventosa-->
+            <Position OffsetX="0" OffsetY="0" Angle="0" />
+            <!--Max peso sollevabile-->
+            <MaxWeight>47</MaxWeight>
+          </Sucker>
+        </Sucker_Bar>
+        <!--Modi Prelievo-->
+        <PickModes>
+          <ZeroRef value="0" />
+          <PickMode HMin="50" HMax="165" LMin="1250" LMax="3200" Axe="14" Dir="90" SuckersId="8,9" />
+          <PickMode HMin="50" HMax="145" LMin="270" LMax="1250" Axe="484" Dir="2" SuckersId="8" />
+          <PickMode HMin="50" HMax="145" LMin="270" LMax="1250" Axe="484" Dir="178" SuckersId="9" />
+          <PickMode HMin="145" HMax="165" LMin="590" LMax="2000" Axe="300" Dir="90" SuckersId="4" />
+          <PickMode HMin="145" HMax="290" LMin="590" LMax="1300" Axe="300" Dir="90" SuckersId="4" />
+          <PickMode HMin="165" HMax="291" LMin="1300" LMax="3700" Axe="14" Dir="90" SuckersId="1,7" Materials="Marble" />
+          <PickMode HMin="291" HMax="435" LMin="1300" LMax="3700" Axe="81" Dir="90" SuckersId="1,2,6,7 " Materials="Marble" />
+          <PickMode HMin="435" HMax="1400" LMin="1300" LMax="3700" Axe="153" Dir="90" SuckersId="1,2,4,6,7" Materials="Marble" />
+          <PickMode HMin="1400" HMax="1500" LMin="1300" LMax="3500" Axe="153" Dir="90" SuckersId="1,2,4,6,7" />
+          <PickMode HMin="1500" HMax="1600" LMin="1300" LMax="3300" Axe="153" Dir="90" SuckersId="1,2,4,6,7" />
+          <PickMode HMin="1600" HMax="1700" LMin="1300" LMax="3100" Axe="153" Dir="90" SuckersId="1,2,4,6,7" />
+          <PickMode HMin="1700" HMax="1800" LMin="1300" LMax="2900" Axe="153" Dir="90" SuckersId="1,2,4,6,7" />
+          <PickMode HMin="1800" HMax="2100" LMin="1300" LMax="2100" Axe="153" Dir="90" SuckersId="1,2,4,6,7" />
+          <PickMode HMin="290" HMax="1300" LMin="400" LMax="1300" Axe="440" Dir="11" SuckersId="1,2" />
+          <PickMode HMin="290" HMax="1300" LMin="400" LMax="1300" Axe="440" Dir="169" SuckersId="6,7" />
+          <PickMode HMin="145" HMax="400" LMin="370" LMax="590" Axe="479" Dir="2" SuckersId="1" />
+          <PickMode HMin="145" HMax="400" LMin="370" LMax="590" Axe="479" Dir="178" SuckersId="7" />
+        </PickModes>
+        <!--Spessore ventose rispetto alla flangia disco-->
+        <Thickness>113.171</Thickness>
+      </Suckers>
+    </SuckersHeads>
+    <!--Travi Porta Mandrini-->
+    <HeadsHolders Number="1">
+      <!--Trave 1 Porta Mandrini-->
+      <HeadsHolder Id="1" Key="Trave1" Enabled="1">
+        <CheckTools Enable="1" />
+        <DefaultPosition OffsetX="-600.5" OffsetY="3829.5" OffsetZ="0" Angle="0" />
+        <MovementVector X="0" Y="-1" Z="0" />
+        <MovementMagnitude>3801</MovementMagnitude>
+        <ChannelNC>1</ChannelNC>
+        <Path Type="HEADSHOLDER" Mode="EN_PATH_MODE_UNKNOW">
+          <Attributes>
+            <__INTERNAL_NAME_ value="INST_8" />
+            <Key value="HEADSHOLDER" />
+            <Type value="HEADSHOLDER" />
+            <ParentKey value="" />
+          </Attributes>
+          <Segment X1="0" Y1="0" X2="0" Y2="682.5" />
+          <Segment X1="0" Y1="682.5" X2="6500" Y2="682.5" />
+          <Segment X1="6500" Y1="682.5" X2="6500" Y2="0" />
+          <Segment X1="6500" Y1="0" X2="0" Y2="0" />
+        </Path>
+        <Head Id="1" Enabled="1">
+          <Path Type="M1T1A0C0" Mode="EN_PATH_MODE_UNKNOW">
+            <Attributes>
+              <__INTERNAL_NAME_ value="INST_14" />
+              <Slope value="0" />
+            </Attributes>
+            <Segment X1="112" Y1="387.505" X2="32" Y2="387.505" />
+            <Segment X1="32" Y1="387.505" X2="32" Y2="417.505" />
+            <Segment X1="32" Y1="417.505" X2="-48" Y2="417.505" />
+            <Segment X1="-48" Y1="417.505" X2="-48" Y2="387.505" />
+            <Segment X1="-48" Y1="387.505" X2="-112" Y2="387.505" />
+            <Segment X1="-112" Y1="387.505" X2="-419.5" Y2="73" />
+            <Segment X1="-419.5" Y1="73" X2="-614.858" Y2="-132.155" />
+            <Segment X1="-614.858" Y1="-132.155" X2="-649.682" Y2="-322.155" />
+            <Segment X1="-649.682" Y1="-322.155" X2="-649.682" Y2="-349.355" />
+            <Segment X1="-649.682" Y1="-349.355" X2="649.682" Y2="-349.355" />
+            <Segment X1="649.682" Y1="-349.355" X2="649.682" Y2="-322.155" />
+            <Segment X1="649.682" Y1="-322.155" X2="615.142" Y2="-132.155" />
+            <Segment X1="615.142" Y1="-132.155" X2="510.15" Y2="28.005" />
+            <Segment X1="510.15" Y1="28.005" X2="501" Y2="40.005" />
+            <Segment X1="501" Y1="40.005" X2="112" Y2="387.505" />
+          </Path>
+          <Path Type="M1T1A45C0" Mode="EN_PATH_MODE_UNKNOW">
+            <Attributes>
+              <__INTERNAL_NAME_ value="INST_14" />
+              <Slope value="45" />
+            </Attributes>
+            <Segment X1="0.44" Y1="363.168" X2="6.618" Y2="363.077" />
+            <Segment X1="6.618" Y1="363.077" X2="12.789" Y2="362.831" />
+            <Segment X1="12.789" Y1="362.831" X2="18.944" Y2="362.434" />
+            <Segment X1="18.944" Y1="362.434" X2="25.078" Y2="361.893" />
+            <Segment X1="25.078" Y1="361.893" X2="31.184" Y2="361.213" />
+            <Segment X1="31.184" Y1="361.213" X2="37.259" Y2="360.403" />
+            <Segment X1="37.259" Y1="360.403" X2="43.301" Y2="359.474" />
+            <Segment X1="43.301" Y1="359.474" X2="49.308" Y2="358.433" />
+            <Segment X1="49.308" Y1="358.433" X2="55.279" Y2="357.292" />
+            <Segment X1="55.279" Y1="357.292" X2="61.213" Y2="356.06" />
+            <Segment X1="61.213" Y1="356.06" X2="67.113" Y2="354.749" />
+            <Segment X1="67.113" Y1="354.749" X2="73" Y2="353.357" />
+            <Segment X1="73" Y1="353.357" X2="81" Y2="352.673" />
+            <Segment X1="81" Y1="352.673" X2="88.623" Y2="348.868" />
+            <Segment X1="88.623" Y1="348.868" X2="473.5" Y2="63.006" />
+            <Segment X1="473.5" Y1="63.006" X2="501" Y2="40.006" />
+            <Segment X1="501" Y1="40.006" X2="510.15" Y2="28.006" />
+            <Segment X1="510.15" Y1="28.006" X2="552.299" Y2="-92.205" />
+            <Segment X1="552.299" Y1="-92.205" X2="629.682" Y2="-177.416" />
+            <Segment X1="629.682" Y1="-177.416" X2="631.291" Y2="-177.465" />
+            <Segment X1="631.291" Y1="-177.465" X2="632.894" Y2="-177.609" />
+            <Segment X1="632.894" Y1="-177.609" X2="634.479" Y2="-177.849" />
+            <Segment X1="634.479" Y1="-177.849" X2="636.034" Y2="-178.183" />
+            <Segment X1="636.034" Y1="-178.183" X2="637.546" Y2="-178.609" />
+            <Segment X1="637.546" Y1="-178.609" X2="639.008" Y2="-179.126" />
+            <Segment X1="639.008" Y1="-179.126" X2="640.411" Y2="-179.731" />
+            <Segment X1="640.411" Y1="-179.731" X2="641.745" Y2="-180.42" />
+            <Segment X1="641.745" Y1="-180.42" X2="643.004" Y2="-181.191" />
+            <Segment X1="643.004" Y1="-181.191" X2="644.178" Y2="-182.041" />
+            <Segment X1="644.178" Y1="-182.041" X2="645.26" Y2="-182.967" />
+            <Segment X1="645.26" Y1="-182.967" X2="646.241" Y2="-183.963" />
+            <Segment X1="646.241" Y1="-183.963" X2="647.114" Y2="-185.025" />
+            <Segment X1="647.114" Y1="-185.025" X2="647.872" Y2="-186.146" />
+            <Segment X1="647.872" Y1="-186.146" X2="648.506" Y2="-187.32" />
+            <Segment X1="648.506" Y1="-187.32" X2="649.01" Y2="-188.54" />
+            <Segment X1="649.01" Y1="-188.54" X2="649.377" Y2="-189.798" />
+            <Segment X1="649.377" Y1="-189.798" X2="649.602" Y2="-191.081" />
+            <Segment X1="649.602" Y1="-191.081" X2="649.682" Y2="-192.437" />
+            <Segment X1="649.682" Y1="-192.437" X2="649.672" Y2="-204.907" />
+            <Segment X1="649.672" Y1="-204.907" X2="629.698" Y2="-304.291" />
+            <Segment X1="629.698" Y1="-304.291" X2="579.686" Y2="-398.239" />
+            <Segment X1="579.686" Y1="-398.239" X2="577.735" Y2="-400.434" />
+            <Segment X1="577.735" Y1="-400.434" X2="575.25" Y2="-402.34" />
+            <Segment X1="575.25" Y1="-402.34" X2="572.315" Y2="-403.893" />
+            <Segment X1="572.315" Y1="-403.893" X2="569.028" Y2="-405.041" />
+            <Segment X1="569.028" Y1="-405.041" X2="565.5" Y2="-405.746" />
+            <Segment X1="565.5" Y1="-405.746" X2="561.85" Y2="-405.983" />
+            <Segment X1="561.85" Y1="-405.983" X2="556.215" Y2="-405.983" />
+            <Segment X1="556.215" Y1="-405.983" X2="451.126" Y2="-413.149" />
+            <Segment X1="451.126" Y1="-413.149" X2="349.91" Y2="-434.38" />
+            <Segment X1="349.91" Y1="-434.38" X2="176.297" Y2="-498.39" />
+            <Segment X1="176.297" Y1="-498.39" X2="89.803" Y2="-516.533" />
+            <Segment X1="89.803" Y1="-516.533" X2="0" Y2="-522.656" />
+            <Segment X1="0" Y1="-522.656" X2="-89.803" Y2="-516.533" />
+            <Segment X1="-89.803" Y1="-516.533" X2="-176.297" Y2="-498.39" />
+            <Segment X1="-176.297" Y1="-498.39" X2="-349.91" Y2="-434.38" />
+            <Segment X1="-349.91" Y1="-434.38" X2="-451.126" Y2="-413.149" />
+            <Segment X1="-451.126" Y1="-413.149" X2="-556.215" Y2="-405.983" />
+            <Segment X1="-556.215" Y1="-405.983" X2="-561.85" Y2="-405.983" />
+            <Segment X1="-561.85" Y1="-405.983" X2="-565.5" Y2="-405.746" />
+            <Segment X1="-565.5" Y1="-405.746" X2="-569.028" Y2="-405.041" />
+            <Segment X1="-569.028" Y1="-405.041" X2="-572.315" Y2="-403.893" />
+            <Segment X1="-572.315" Y1="-403.893" X2="-575.25" Y2="-402.34" />
+            <Segment X1="-575.25" Y1="-402.34" X2="-577.735" Y2="-400.434" />
+            <Segment X1="-577.735" Y1="-400.434" X2="-579.686" Y2="-398.239" />
+            <Segment X1="-579.686" Y1="-398.239" X2="-629.698" Y2="-304.291" />
+            <Segment X1="-629.698" Y1="-304.291" X2="-649.683" Y2="-204.458" />
+            <Segment X1="-649.683" Y1="-204.458" X2="-649.683" Y2="-192.437" />
+            <Segment X1="-649.683" Y1="-192.437" X2="-649.602" Y2="-191.081" />
+            <Segment X1="-649.602" Y1="-191.081" X2="-649.377" Y2="-189.798" />
+            <Segment X1="-649.377" Y1="-189.798" X2="-649.01" Y2="-188.54" />
+            <Segment X1="-649.01" Y1="-188.54" X2="-648.506" Y2="-187.32" />
+            <Segment X1="-648.506" Y1="-187.32" X2="-647.872" Y2="-186.146" />
+            <Segment X1="-647.872" Y1="-186.146" X2="-647.114" Y2="-185.025" />
+            <Segment X1="-647.114" Y1="-185.025" X2="-646.241" Y2="-183.963" />
+            <Segment X1="-646.241" Y1="-183.963" X2="-645.26" Y2="-182.967" />
+            <Segment X1="-645.26" Y1="-182.967" X2="-644.178" Y2="-182.041" />
+            <Segment X1="-644.178" Y1="-182.041" X2="-643.004" Y2="-181.191" />
+            <Segment X1="-643.004" Y1="-181.191" X2="-641.745" Y2="-180.42" />
+            <Segment X1="-641.745" Y1="-180.42" X2="-640.411" Y2="-179.731" />
+            <Segment X1="-640.411" Y1="-179.731" X2="-639.008" Y2="-179.126" />
+            <Segment X1="-639.008" Y1="-179.126" X2="-637.547" Y2="-178.609" />
+            <Segment X1="-637.547" Y1="-178.609" X2="-636.034" Y2="-178.183" />
+            <Segment X1="-636.034" Y1="-178.183" X2="-634.479" Y2="-177.849" />
+            <Segment X1="-634.479" Y1="-177.849" X2="-632.895" Y2="-177.609" />
+            <Segment X1="-632.895" Y1="-177.609" X2="-631.292" Y2="-177.465" />
+            <Segment X1="-631.292" Y1="-177.465" X2="-629.683" Y2="-177.416" />
+            <Segment X1="-629.683" Y1="-177.416" X2="-552.299" Y2="-92.205" />
+            <Segment X1="-552.299" Y1="-92.205" X2="-418.621" Y2="72.122" />
+            <Segment X1="-418.621" Y1="72.122" X2="-325.657" Y2="133.658" />
+            <Segment X1="-325.657" Y1="133.658" X2="-86.636" Y2="350.974" />
+            <Segment X1="-86.636" Y1="350.974" X2="-83.022" Y2="352.481" />
+            <Segment X1="-83.022" Y1="352.481" X2="-72.146" Y2="353.564" />
+            <Segment X1="-72.146" Y1="353.564" X2="-66.277" Y2="354.941" />
+            <Segment X1="-66.277" Y1="354.941" X2="-60.373" Y2="356.243" />
+            <Segment X1="-60.373" Y1="356.243" X2="-54.433" Y2="357.461" />
+            <Segment X1="-54.433" Y1="357.461" X2="-48.457" Y2="358.587" />
+            <Segment X1="-48.457" Y1="358.587" X2="-42.445" Y2="359.611" />
+            <Segment X1="-42.445" Y1="359.611" X2="-36.398" Y2="360.524" />
+            <Segment X1="-36.398" Y1="360.524" X2="-30.318" Y2="361.317" />
+            <Segment X1="-30.318" Y1="361.317" X2="-24.208" Y2="361.979" />
+            <Segment X1="-24.208" Y1="361.979" X2="-18.07" Y2="362.501" />
+            <Segment X1="-18.07" Y1="362.501" X2="-11.912" Y2="362.877" />
+            <Segment X1="-11.912" Y1="362.877" X2="-5.74" Y2="363.1" />
+            <Segment X1="-5.74" Y1="363.1" X2="0.44" Y2="363.168" />
+          </Path>
+          <Path Type="M1T1A0C90" Mode="EN_PATH_MODE_UNKNOW">
+            <Attributes>
+              <__INTERNAL_NAME_ value="INST_14" />
+              <Slope value="90" />
+            </Attributes>
+            <Segment X1="260.54" Y1="138.01" X2="255.489" Y2="152.963" />
+            <Segment X1="255.489" Y1="152.963" X2="242.034" Y2="181.516" />
+            <Segment X1="242.034" Y1="181.516" X2="225.399" Y2="208.342" />
+            <Segment X1="225.399" Y1="208.342" X2="205.805" Y2="233.09" />
+            <Segment X1="205.805" Y1="233.09" X2="183.509" Y2="255.433" />
+            <Segment X1="183.509" Y1="255.433" X2="158.802" Y2="275.079" />
+            <Segment X1="158.802" Y1="275.079" X2="132.011" Y2="291.769" />
+            <Segment X1="132.011" Y1="291.769" X2="103.485" Y2="305.284" />
+            <Segment X1="103.485" Y1="305.284" X2="73.601" Y2="315.447" />
+            <Segment X1="73.601" Y1="315.447" X2="42.751" Y2="322.125" />
+            <Segment X1="42.751" Y1="322.125" X2="11.338" Y2="325.229" />
+            <Segment X1="11.338" Y1="325.229" X2="-20.223" Y2="324.719" />
+            <Segment X1="-20.223" Y1="324.719" X2="-51.518" Y2="320.602" />
+            <Segment X1="-51.518" Y1="320.602" X2="-66.827" Y2="316.767" />
+            <Segment X1="-66.827" Y1="316.767" X2="-162.761" Y2="292.733" />
+            <Segment X1="-162.761" Y1="292.733" X2="-370.761" Y2="292.733" />
+            <Segment X1="-370.761" Y1="292.733" X2="-370.761" Y2="138.01" />
+            <Segment X1="-370.761" Y1="138.01" X2="-615.142" Y2="138.01" />
+            <Segment X1="-615.142" Y1="138.01" X2="-648.077" Y2="60.862" />
+            <Segment X1="-648.077" Y1="60.862" X2="-649.813" Y2="56.795" />
+            <Segment X1="-649.813" Y1="56.795" X2="-649.673" Y2="52.375" />
+            <Segment X1="-649.673" Y1="52.375" X2="-648.92" Y2="28.669" />
+            <Segment X1="-648.92" Y1="28.669" X2="-643.962" Y2="-18.508" />
+            <Segment X1="-643.962" Y1="-18.508" X2="-635.579" Y2="-65.198" />
+            <Segment X1="-635.579" Y1="-65.198" X2="-623.816" Y2="-111.153" />
+            <Segment X1="-623.816" Y1="-111.153" X2="-608.735" Y2="-156.129" />
+            <Segment X1="-608.735" Y1="-156.129" X2="-590.416" Y2="-199.885" />
+            <Segment X1="-590.416" Y1="-199.885" X2="-579.686" Y2="-221.038" />
+            <Segment X1="-579.686" Y1="-221.038" X2="-578.007" Y2="-224.349" />
+            <Segment X1="-578.007" Y1="-224.349" X2="-572.494" Y2="-229.325" />
+            <Segment X1="-572.494" Y1="-229.325" X2="-565.563" Y2="-231.99" />
+            <Segment X1="-565.563" Y1="-231.99" X2="-561.85" Y2="-231.99" />
+            <Segment X1="-561.85" Y1="-231.99" X2="-556.215" Y2="-231.99" />
+            <Segment X1="-556.215" Y1="-231.99" X2="-534.133" Y2="-231.99" />
+            <Segment X1="-534.133" Y1="-231.99" X2="-490.11" Y2="-235.531" />
+            <Segment X1="-490.11" Y1="-235.531" X2="-446.514" Y2="-242.589" />
+            <Segment X1="-446.514" Y1="-242.589" X2="-403.623" Y2="-253.12" />
+            <Segment X1="-403.623" Y1="-253.12" X2="-361.715" Y2="-267.056" />
+            <Segment X1="-361.715" Y1="-267.056" X2="-321.059" Y2="-284.306" />
+            <Segment X1="-321.059" Y1="-284.306" X2="-301.487" Y2="-294.534" />
+            <Segment X1="-301.487" Y1="-294.534" X2="-271.875" Y2="-315.268" />
+            <Segment X1="-271.875" Y1="-315.268" X2="-254.923" Y2="-327.138" />
+            <Segment X1="-254.923" Y1="-327.138" X2="-219.077" Y2="-347.834" />
+            <Segment X1="-219.077" Y1="-347.834" X2="-181.565" Y2="-365.326" />
+            <Segment X1="-181.565" Y1="-365.326" X2="-142.67" Y2="-379.483" />
+            <Segment X1="-142.67" Y1="-379.483" X2="-102.69" Y2="-390.195" />
+            <Segment X1="-102.69" Y1="-390.195" X2="-61.928" Y2="-397.383" />
+            <Segment X1="-61.928" Y1="-397.383" X2="-20.695" Y2="-400.99" />
+            <Segment X1="-20.695" Y1="-400.99" X2="20.695" Y2="-400.99" />
+            <Segment X1="20.695" Y1="-400.99" X2="61.928" Y2="-397.383" />
+            <Segment X1="61.928" Y1="-397.383" X2="102.69" Y2="-390.195" />
+            <Segment X1="102.69" Y1="-390.195" X2="142.67" Y2="-379.483" />
+            <Segment X1="142.67" Y1="-379.483" X2="181.565" Y2="-365.326" />
+            <Segment X1="181.565" Y1="-365.326" X2="219.077" Y2="-347.834" />
+            <Segment X1="219.077" Y1="-347.834" X2="254.923" Y2="-327.138" />
+            <Segment X1="254.923" Y1="-327.138" X2="271.875" Y2="-315.268" />
+            <Segment X1="271.875" Y1="-315.268" X2="301.487" Y2="-294.534" />
+            <Segment X1="301.487" Y1="-294.534" X2="321.058" Y2="-284.306" />
+            <Segment X1="321.058" Y1="-284.306" X2="361.714" Y2="-267.056" />
+            <Segment X1="361.714" Y1="-267.056" X2="403.623" Y2="-253.12" />
+            <Segment X1="403.623" Y1="-253.12" X2="446.513" Y2="-242.589" />
+            <Segment X1="446.513" Y1="-242.589" X2="490.11" Y2="-235.531" />
+            <Segment X1="490.11" Y1="-235.531" X2="534.133" Y2="-231.99" />
+            <Segment X1="534.133" Y1="-231.99" X2="556.215" Y2="-231.99" />
+            <Segment X1="556.215" Y1="-231.99" X2="561.85" Y2="-231.99" />
+            <Segment X1="561.85" Y1="-231.99" X2="565.563" Y2="-231.99" />
+            <Segment X1="565.563" Y1="-231.99" X2="572.494" Y2="-229.325" />
+            <Segment X1="572.494" Y1="-229.325" X2="578.006" Y2="-224.349" />
+            <Segment X1="578.006" Y1="-224.349" X2="579.686" Y2="-221.038" />
+            <Segment X1="579.686" Y1="-221.038" X2="590.416" Y2="-199.885" />
+            <Segment X1="590.416" Y1="-199.885" X2="608.735" Y2="-156.129" />
+            <Segment X1="608.735" Y1="-156.129" X2="623.816" Y2="-111.153" />
+            <Segment X1="623.816" Y1="-111.153" X2="635.579" Y2="-65.198" />
+            <Segment X1="635.579" Y1="-65.198" X2="643.962" Y2="-18.508" />
+            <Segment X1="643.962" Y1="-18.508" X2="648.919" Y2="28.669" />
+            <Segment X1="648.919" Y1="28.669" X2="649.672" Y2="52.375" />
+            <Segment X1="649.672" Y1="52.375" X2="649.813" Y2="56.795" />
+            <Segment X1="649.813" Y1="56.795" X2="648.076" Y2="60.862" />
+            <Segment X1="648.076" Y1="60.862" X2="615.142" Y2="138.01" />
+            <Segment X1="615.142" Y1="138.01" X2="260.54" Y2="138.01" />
+          </Path>
+          <Path Type="M1T1A0C0HOLE" Mode="EN_PATH_MODE_UNKNOW">
+            <Attributes>
+              <__INTERNAL_NAME_ value="INST_2" />
+              <Slope value="0" />
+              <ToolType value="HOLE" />
+            </Attributes>
+            <Segment X1="30" Y1="-349.355" X2="649.682" Y2="-349.355" />
+            <Segment X1="649.682" Y1="-349.355" X2="649.682" Y2="-322.155" />
+            <Segment X1="649.682" Y1="-322.155" X2="615.142" Y2="-132.155" />
+            <Segment X1="615.142" Y1="-132.155" X2="510.15" Y2="28.005" />
+            <Segment X1="510.15" Y1="28.005" X2="501" Y2="40.005" />
+            <Segment X1="501" Y1="40.005" X2="112" Y2="387.505" />
+            <Segment X1="112" Y1="387.505" X2="32" Y2="387.505" />
+            <Segment X1="32" Y1="387.505" X2="32" Y2="417.505" />
+            <Segment X1="32" Y1="417.505" X2="-48" Y2="417.505" />
+            <Segment X1="-48" Y1="417.505" X2="-48" Y2="387.505" />
+            <Segment X1="-48" Y1="387.505" X2="-112" Y2="387.505" />
+            <Segment X1="-112" Y1="387.505" X2="-419.5" Y2="73" />
+            <Segment X1="-419.5" Y1="73" X2="-614.858" Y2="-132.155" />
+            <Segment X1="-614.858" Y1="-132.155" X2="-649.682" Y2="-322.155" />
+            <Segment X1="-649.682" Y1="-322.155" X2="-649.682" Y2="-349.355" />
+            <Segment X1="-649.682" Y1="-349.355" X2="-30" Y2="-349.355" />
+            <Segment X1="-30" Y1="-349.355" X2="-30" Y2="-449.355" />
+            <Segment X1="-30" Y1="-449.355" X2="30" Y2="-449.355" />
+            <Segment X1="30" Y1="-449.355" X2="30" Y2="-349.355" />
+          </Path>
+          <!--Pivot-->
+          <PivotCenter PivotY="-228.395" PivotZ="49.897" PivotCX="0.131" PivotCY="-0.034" />
+          <!--Posizione di disimpegno-->
+          <DefaultPosition OffsetX="4600" OffsetY="3800" OffsetZ="0" AAngle="0" CAngle="-1.5707963267948966" />
+          <!--Posizione di cambio utensile-->
+          <ToolChangePosition OffsetX="2950" OffsetY="400" OffsetZ="0" AAngle="0" CAngle="0" />
+          <MovementVector X="1" Y="0" Z="0" />
+          <MovementMagnitude>3651</MovementMagnitude>
+          <DiskRotation>CW</DiskRotation>
+          <SuckerId>1</SuckerId>
+          <Sucker Id="1">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>1</Enabled>
+          </Sucker>
+          <Sucker Id="2">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>1</Enabled>
+          </Sucker>
+          <Sucker Id="3">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>0</Enabled>
+          </Sucker>
+          <Sucker Id="4">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>1</Enabled>
+          </Sucker>
+          <Sucker Id="6">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>1</Enabled>
+          </Sucker>
+          <Sucker Id="7">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>1</Enabled>
+          </Sucker>
+          <Sucker Id="8">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>1</Enabled>
+          </Sucker>
+          <Sucker Id="9">
+            <!--Abilitata 1=si/0=no-->
+            <Enabled>1</Enabled>
+          </Sucker>
+          <SuckerOffset OffsetX="0" OffsetY="50" OffsetZ="0" Angle="3.1415926535897931" />
+          <LogicalAxes X="X" Y="Y" Z="Z" A="A" C="C" />
+          <WashingOffsetVector X="0" Y="-1" Z="0" />
+          <WashingOffsetMagnitude>200</WashingOffsetMagnitude>
+          <ThicknessProbe Enable="true" OffsetX="367.411" OffsetY="-372.71" OffsetZ="329.104" />
+          <BaseLengthUt>62.037</BaseLengthUt>
+          <Limits>
+            <Limit Axe="X" Min="1005.5" Max="4910.5" />
+            <Limit Axe="Y" Min="-0.5" Max="3800.5" />
+            <Limit Axe="Z" Max="0.4" />
+          </Limits>
+          <BaseLengthUtBevel>0</BaseLengthUtBevel>
+        </Head>
+        <Head Id="2" Enabled="1" BevelEquipment="0">
+          <Path Type="M2T1A0C0" Mode="EN_PATH_MODE_UNKNOW">
+            <Attributes>
+              <__INTERNAL_NAME_ value="INST_14" />
+              <Slope value="0" />
+            </Attributes>
+            <Segment X1="-293.742" Y1="-531.005" X2="68.478" Y2="-531.005" />
+            <Segment X1="68.478" Y1="-531.005" X2="68.478" Y2="366.995" />
+            <Segment X1="68.478" Y1="366.995" X2="-293.742" Y2="366.995" />
+            <Segment X1="-293.742" Y1="366.995" X2="-293.742" Y2="-531.005" />
+          </Path>
+          <!--Pivot-->
+          <PivotCenter PivotY="-0" PivotZ="140.251" PivotCX="0" PivotCY="0" />
+          <!--Posizione di disimpegno-->
+          <DefaultPosition OffsetX="320" OffsetY="3800" OffsetZ="0" AAngle="0" CAngle="0" OffsetA="0" OffsetC="0" />
+          <!--Posizione di cambio utensile-->
+          <ToolChangePosition OffsetX="312" OffsetY="3800" OffsetZ="0" AAngle="0" CAngle="0" OffsetA="0" OffsetC="0" />
+          <MovementVector X="1" Y="0" Z="0" />
+          <MovementMagnitude>3651</MovementMagnitude>
+          <DiskRotation>CW</DiskRotation>
+          <LogicalAxes X="X2" Y="Y" Z="Z2" A="A" C="C" />
+          <ThicknessProbe Enable="false" OffsetX="0" OffsetY="0" OffsetZ="0" />
+          <BaseLengthUt>0</BaseLengthUt>
+          <Limits>
+            <Limit Axe="X" Min="304.5" Max="4154" />
+            <Limit Axe="Y" Min="-0.5" Max="3800.5" />
+            <Limit Axe="Z" Max="0.4" />
+          </Limits>
+          <BaseLengthUtBevel>0</BaseLengthUtBevel>
+        </Head>
+        <Head Id="3" Enabled="1" BevelEquipment="0">
+          <Path Type="M3T1A0C0" Mode="EN_PATH_MODE_UNKNOW">
+            <Attributes>
+              <__INTERNAL_NAME_ value="INST_15" />
+              <Slope value="0" />
+            </Attributes>
+            <Segment X1="-353.863" Y1="-531.005" X2="8.356" Y2="-531.005" />
+            <Segment X1="8.356" Y1="-531.005" X2="8.356" Y2="366.995" />
+            <Segment X1="8.356" Y1="366.995" X2="-353.863" Y2="366.995" />
+            <Segment X1="-353.863" Y1="366.995" X2="-353.863" Y2="-531.005" />
+          </Path>
+          <!--Pivot-->
+          <PivotCenter PivotY="-0" PivotZ="140.251" PivotCX="0" PivotCY="0" />
+          <!--Posizione di disimpegno-->
+          <DefaultPosition OffsetX="0" OffsetY="3800" OffsetZ="0" AAngle="0" CAngle="0" OffsetA="0" OffsetC="0" />
+          <!--Posizione di cambio utensile-->
+          <ToolChangePosition OffsetX="0" OffsetY="3800" OffsetZ="0" AAngle="0" CAngle="0" OffsetA="0" OffsetC="0" />
+          <MovementVector X="1" Y="0" Z="0" />
+          <MovementMagnitude>3651</MovementMagnitude>
+          <DiskRotation>CW</DiskRotation>
+          <LogicalAxes X="X3" Y="Y" Z="Z3" A="A" C="C" />
+          <ThicknessProbe Enable="false" OffsetX="0" OffsetY="0" OffsetZ="0" />
+          <BaseLengthUt>0</BaseLengthUt>
+          <Limits>
+            <Limit Axe="X" Min="-0.5" Max="3850" />
+            <Limit Axe="Y" Min="-0.5" Max="3800.5" />
+            <Limit Axe="Z" Max="0.4" />
+          </Limits>
+          <BaseLengthUtBevel>0</BaseLengthUtBevel>
+        </Head>
+      </HeadsHolder>
+    </HeadsHolders>
+    <!-- Parametri per l'anticollisioni -->
+    <AntiCollisions>
+      <!-- distanza aggiuntiva di sicurezza attorno al mandrino a 5 assi -->
+      <FiveAxesDeviceSafeOffsetDistance>0.5</FiveAxesDeviceSafeOffsetDistance>
+      <!-- distanza aggiuntiva di sicurezza per le rotazioni (assi C e A) del mandrino a 5 assi -->
+      <FiveAxesDeviceRotationOffset>35</FiveAxesDeviceRotationOffset>
+      <!-- distanza minima in X per l'esecuzione di 2 tagli in parallelo -->
+      <CutsMinXDistance>305</CutsMinXDistance>
+      <!-- distanza massima tra i mandrini a 3 assi -->
+      <ThreeAxesDevicesCutMaxXDistance>2000</ThreeAxesDevicesCutMaxXDistance>
+      <!-- dimensione del mandrino 2 oltre l'asse X del suo canotto verso il mandrino 1 -->
+      <Head2BoundaryOnX>153</Head2BoundaryOnX>
+      <!-- Valori di offset per le sagome dei mandrini da utilizzare per l'anticollisione -->
+      <HeadBoundaries>
+        <Boundary AAxis="0" Offset="30" />
+        <Boundary AAxis="45" Offset="40" />
+        <Boundary AAxis="90" Offset="30" />
+      </HeadBoundaries>
+    </AntiCollisions>
+    <!--Parametrizzazione costo operazioni-->
+    <Costs>
+      <Suckers>
+        <!--Tempo presa pezzo (sec.)-->
+        <SuckerOn>20</SuckerOn>
+        <!--Tempo rilascio pezzo (sec.)-->
+        <SuckerOff>3</SuckerOff>
+      </Suckers>
+      <Table>
+        <!--Tempo blocco banco (sec.)-->
+        <Lock>0</Lock>
+        <!--Tempo sblocco banco (sec.)-->
+        <Unlock>0</Unlock>
+        <!--Velocit� posizionamento banco (gradi/min)-->
+        <Speed>2160</Speed>
+        <!--Accelerazione\decelerazione rotazione banco (gradi/s^2)-->
+        <Acceleration>0.041</Acceleration>
+      </Table>
+      <!--Costo operazione di carico = (Posizione carico / Lunghezza banco) * PositionFact + PositionK-->
+      <Load>
+        <!--Fattore di moltiplicazione del costo in base alla posizione-->
+        <PositionFact>100</PositionFact>
+        <!--Costante sommata al del costo di carico-->
+        <PositionK>0</PositionK>
+      </Load>
+      <Move>
+        <!--Velocita' movimenti Rapidi XY e Z (mm/min)-->
+        <Rapid XY="40000" Z="10000" />
+        <!--Velocita' movimenti Approccio XY e Z (mm/min)-->
+        <Approach XY="5000" Z="3000" />
+        <!--Velocita' movimenti Uscita Materiale XYZ (mm/min)-->
+        <OutFromMaterial XY="5000" Z="3000" />
+        <!--Velocita' movimenti Lavoro XYZ (mm/min), XYSlopedReduction � un fattore moltiplicativo per i tagli inclinati-->
+        <Working XY="2500" Z="300" XYSlopedReduction="0.66" XYF="1250" XYB="1500" XYBevel="2600" ZBevel="800" />
+        <!--Velocita' movimenti asse A (gradi/min)-->
+        <A_Move>4320</A_Move>
+        <!--Velocita' movimenti asse C (gradi/min)-->
+        <C_Move>4320</C_Move>
+        <!-- Accelerazione (mm/s^2) -->
+        <Acceleration XY="500" Z="300" />
+        <!-- Velocit� di movimento del nastro (mm/min) -->
+        <Belt>10000</Belt>
+        <!-- Velocit� di foratura (mm/min) -->
+        <DrillingSpeed>30</DrillingSpeed>
+        <MaxCutSpeed>15</MaxCutSpeed>
+        <Rodding XYF="0" XYB="0" Z="0" />
+        <Router XY="0" Z="0" />
+      </Move>
+      <Touch>
+        <!--Tempo di esecuzione di un tasteggio (sec.)-->
+        <TouchTime>3</TouchTime>
+        <Miterwave XY="8000" Z="8000" />
+      </Touch>
+      <ToolChange>
+        <!--Tempo di esecuzione del cambio utensile (sec.)-->
+        <ToolChangeTime>60</ToolChangeTime>
+      </ToolChange>
+      <Spindles>
+        <!-- Tempo di avvio del mandrino (sec.) -->
+        <StartSpindleTime>6</StartSpindleTime>
+      </Spindles>
+      <Cuts>
+        <!-- Lunghezza di inizio taglio a velocit� ridotta (mm) -->
+        <DeltaIn>100</DeltaIn>
+        <!-- Lunghezza di fine taglio a velocit� ridotta (mm) -->
+        <DeltaOut>100</DeltaOut>
+        <!-- Percentuale di velocit� di taglio a inizio taglio -->
+        <DeltaInPercentage>50</DeltaInPercentage>
+        <!-- Percentuale di velocit� di taglio a fine taglio -->
+        <DeltaOutPercentage>50</DeltaOutPercentage>
+        <BevelDeltaIn>100</BevelDeltaIn>
+        <BevelDeltaOut>100</BevelDeltaOut>
+        <BevelDeltaInPercentage>65</BevelDeltaInPercentage>
+        <BevelDeltaOutPercentage>65</BevelDeltaOutPercentage>
+      </Cuts>
+      <Productivity>500</Productivity>
+      <FixedBasicOperationCosts />
+      <ArcCuts>
+        <DeltaPercentageCurvedCut>8</DeltaPercentageCurvedCut>
+      </ArcCuts>
+    </Costs>
+    <!--Parametri movimentazione pezzi-->
+    <MovePieces>
+      <!--Altezza disimpegno ventose-->
+      <DisengagementHeight>250</DisengagementHeight>
+      <!--Sollevamento sfioro banco-->
+      <LiftMin>10</LiftMin>
+      <!--Sollevamento sicurezza-->
+      <Lift>20</Lift>
+      <!-- Soglia spessore minimo del materiale per utilizzare la quota di sollevamento minimo, per spessori minori utilizza la quota di sollevamento di sicurezza -->
+      <LiftMinThreshold>20</LiftMinThreshold>
+      <!--Altezza max centro disco mandrini in disimpegno-->
+      <SpindleHeight>430</SpindleHeight>
+      <!--Altezza max pezzo, oltre la quale i mandrini vanno mandati sempre in disimpegno-->
+      <MaxPieceHeight>280</MaxPieceHeight>
+      <!--Distanza centro barra ventose / centro disco mandrini-->
+      <SuckerSpindleDistance>675</SuckerSpindleDistance>
+      <!--Valore aumento ingombro mandrini direzione negativa-->
+      <EncumbranceAddN>50</EncumbranceAddN>
+      <!--Valore aumento ingombro mandrini direzione positiva-->
+      <EncumbranceAddP>50</EncumbranceAddP>
+      <!--Lunghezza max filagna per ingombro mandrini-->
+      <EncumbranceLength>2000</EncumbranceLength>
+      <!--Fattore sicurezza aumento peso pezzo-->
+      <WeightFactIncrease>1.0</WeightFactIncrease>
+      <!--Fattore sicurezza diminuzione peso massimo sollevabile dalle ventose-->
+      <MaxSuckerWeightFactDecrease>0.5</MaxSuckerWeightFactDecrease>
+      <!--Limiti dei pezzi da movimentare-->
+      <PieceLimits>
+        <Lenght Max="3700" Min="50" />
+        <Width Max="2200" Min="50" />
+        <Thickness Max="160" Min="10" />
+        <Weight Max="1000" Min="0" />
+        <!--Rapporto tra lunghezza e altezza pezzo, per valutare la prelevabilit� ortogonale-->
+        <Ratio Value="140" />
+      </PieceLimits>
+      <ConvexGroupShape>1</ConvexGroupShape>
+    </MovePieces>
+    <!--Opzioni Macchina-->
+    <Options>
+      <!--Presenza [1] o Assenza [0] Nastro-->
+      <Belt>0</Belt>
+      <!--Presenza [1] o Assenza [0] Scarico Automatico-->
+      <AutoUnload>0</AutoUnload>
+      <!--Esecuzione ultimo Unload = 0 No = 1 Si-->
+      <ExecuteLastUnload>0</ExecuteLastUnload>
+      <!--Abilitazione a posizionamento lastra in X in fase di caricamento [1] -->
+      <AutoLoadXPos>0</AutoLoadXPos>
+      <!--Posizione X di carico -->
+      <LoadXPos>100</LoadXPos>
+      <ConsiderSlabDefectsOnPickPlace>1</ConsiderSlabDefectsOnPickPlace>
+      <NumMaxTools>3</NumMaxTools>
+      <MultipleBeams>0</MultipleBeams>
+      <ExtendCutsUntilEndOfPartition>0</ExtendCutsUntilEndOfPartition>
+      <EnableStripsPatterns>0</EnableStripsPatterns>
+      <!-- 
+		Indica il livello di estensione possibile per i tagli paralleli:
+		- 0 : (default) non estende se l'estensione è maggiore della lunghezza del taglio o della parte in comune tra i tagli
+		- 1 : non estende se l'estensione è maggiore della parte in comune tra i tagli
+		- 2 : non estende se l'estensione è maggiore del taglio
+		- 3 : estende sempre quando i tagli possono essere eseguiti in parallelo
+		-->
+      <ParallelCutExtensionDepth>3</ParallelCutExtensionDepth>
+      <OptimizeStartStopParallelCutsOnMultiDiksMachines>1</OptimizeStartStopParallelCutsOnMultiDiksMachines>
+      <HoleSequenceOptimizationMode>0</HoleSequenceOptimizationMode>
+      <ThicknessMeasurement>0</ThicknessMeasurement>
+      <!--Indica di effettuare il cambio utensile prima del carico lastra per attivare l'utensile di partenza-->
+      <!-- Abilita/disabilita controllo peso prima della movimentazione delle partizioni nelle soluzioni neutre -->
+      <EvaluatePartitionWeightBeforeMove>1</EvaluatePartitionWeightBeforeMove>
+      <TypeEnableBevel>0</TypeEnableBevel>
+      <CheckToolAtProgramStart>1</CheckToolAtProgramStart>
+      <ExecuteLongestCutsFirst>1</ExecuteLongestCutsFirst>
+      <!-- Abilitazione della parallelizzazione dei tagli di separazione con i tagli normali -->
+      <OptimizeSimultaneousCutsWithSeparationCuts>1</OptimizeSimultaneousCutsWithSeparationCuts>
+      <!-- Tolleranza nella differenza ad inizio e fine dei tagli -->
+      <SimultaneousCutsStartStopMaxDistance>200</SimultaneousCutsStartStopMaxDistance>
+      <InclinedCutsSequenceExecution>1</InclinedCutsSequenceExecution>
+      <MaxTouchPoints>60</MaxTouchPoints>
+      <EnableCheckSlabPositionOnTable>0</EnableCheckSlabPositionOnTable>
+    </Options>
+    <SimulationColors>
+      <!--Object Key="TABLE" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="REPOSITORY" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="HEADSHOLDER" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="HEADOFF" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="HEADON" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="SLAB" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="SHAPE" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="BOUNDARY" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="HOLES" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="LAYOUT" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <!--Object Key="AXESLIMITS" Red="128" Blue="230" Green="64" Alpha="255" /-->
+      <Object Key="HEAD_1" Red="255" Blue="0" Green="255" Alpha="255" />
+      <Object Key="HEAD_2" Red="64" Blue="115" Green="224" Alpha="255" />
+      <Object Key="HEAD_3" Red="128" Blue="230" Green="64" Alpha="255" />
+    </SimulationColors>
+    <!--Metodo di rappresentazione dei pezzi-->
+    <DisplayMode>
+      <Geometries>1</Geometries>
+      <ToolPath>1</ToolPath>
+      <RemovalPath>1</RemovalPath>
+      <Defects>1</Defects>
+    </DisplayMode>
+    <!--Parametri per la post-ottimizzazione-->
+    <PostOptimization Enabled="1">
+      <!--Ordinamento punti di tasteggio (1=abilitato)-->
+      <OrderTouchPoints>1</OrderTouchPoints>
+      <!--Numero massimo di punti di tasteggio accumulabili-->
+      <MaxTouchPoints>60</MaxTouchPoints>
+      <!--Ottimizzazione archi rispetto movimento asse C (1=abilitato)-->
+      <OptimizeArcForMachineCAxe>0</OptimizeArcForMachineCAxe>
+    </PostOptimization>
+    <!--Cut technology-->
+    <CutTechnology IdTechnology="34">
+      <CutExtensionStart>1</CutExtensionStart>
+      <CutExtensionStop>1</CutExtensionStop>
+      <CutReductionStart>0</CutReductionStart>
+      <CutReductionStop>0</CutReductionStop>
+      <ZLift>20</ZLift>
+      <IncisionTable>1.7</IncisionTable>
+      <CutStartOffset>0</CutStartOffset>
+      <CutStopOffset>0</CutStopOffset>
+      <DeltaCutOutSlab>0</DeltaCutOutSlab>
+      <IncisionTableHole>-3</IncisionTableHole>
+      <DeltaDistMaxTaglioUnico>0.1</DeltaDistMaxTaglioUnico>
+      <DeltaSbordamento>1</DeltaSbordamento>
+      <CutArcInclMin>1</CutArcInclMin>
+      <CutArcInclMax>45</CutArcInclMax>
+      <CutArcInclAdd>-1</CutArcInclAdd>
+      <!-- Offset Z sopra il materiale utensile nella direttrice di taglio -->
+      <ZOffsetSlopedTool>5</ZOffsetSlopedTool>
+      <StartCutFromOutsideMaterial>0</StartCutFromOutsideMaterial>
+      <!-- modalita' di sviluppo dei percorsi utensile disco ad incrementi -->
+      <!-- 0 = monodirezionale con riposizionamenti -->
+      <!-- 1 = bidirezionale con abbassamenti differenziati -->
+      <IncrementalDepthMode>0</IncrementalDepthMode>
+      <!-- valore dell'abbassamento dell'utensile disco nella direzione concorde (mm.) -->
+      <IncrementalDepthModeFwStep>40</IncrementalDepthModeFwStep>
+      <!-- valore dell'abbassamento dell'utensile disco nella direzione discorde (mm.) -->
+      <IncrementalDepthModeBkStep>10</IncrementalDepthModeBkStep>
+      <!-- Direzione standard dei percorsi utensile disco, non inclinati, che si sviluppano principalmente in Y -->
+      <!-- 0 = la direzione e' indifferente; si utilizza quella determinata dalle ottimizzazioni standard -->
+      <!-- 1 = il disco espelle l'acqua nella direzione opposta rispetto il lato operatore -->
+      <!-- 2 = il disco espelle l'acqua nella direzione del lato operatore -->
+      <DefaultDiskCutDirection>1</DefaultDiskCutDirection>
+      <DefaultCutQuality>0</DefaultCutQuality>
+      <EnableMaxOutOfTableDeltaOfCuts>1</EnableMaxOutOfTableDeltaOfCuts>
+      <MaxOutOfTableDeltaOfCuts>0</MaxOutOfTableDeltaOfCuts>
+      <!-- modalità di foratura: 0 foratura con una sola passata, 1 foratura a step -->
+      <DrillDepthMode>0</DrillDepthMode>
+      <MaxSingleStepDepth>80</MaxSingleStepDepth>
+      <BevelDepth>3</BevelDepth>
+      <RoddingTechnology>
+        <IncrementalDepthModeFwStep>0</IncrementalDepthModeFwStep>
+        <IncrementalDepthModeBkStep>0</IncrementalDepthModeBkStep>
+      </RoddingTechnology>
+      <BridgeTechnology>
+        <BridgeDepthPercentage>50</BridgeDepthPercentage>
+        <BridgeLength>10</BridgeLength>
+        <BridgeMaxDistanceBetween>1000</BridgeMaxDistanceBetween>
+      </BridgeTechnology>
+      <ArcCutTechnology>
+        <IncrementalDepthStep>2</IncrementalDepthStep>
+      </ArcCutTechnology>
+      <PreCutTechnology>
+        <PreCutLength>50</PreCutLength>
+        <CutMinLength>1000</CutMinLength>
+        <MinDisconnectionLen>10</MinDisconnectionLen>
+      </PreCutTechnology>
+      <TouchPointDistFromToolPath>5</TouchPointDistFromToolPath>
+      <TouchPointDistFromVertex>5</TouchPointDistFromVertex>
+      <RouterTechnology Enabled="false">
+        <StepDepth>0</StepDepth>
+      </RouterTechnology>
+    </CutTechnology>
+    <!--Origin-->
+    <Origin IdOrigin="18">
+      <X>1046.516</X>
+      <Y>987.092</Y>
+      <Z>-585.045</Z>
+      <A>0</A>
+      <W>0</W>
+      <V>0</V>
+      <C>0</C>
+    </Origin>
+    <!--Parametri posizionamento fine della testa portaventose in fase di pick-->
+    <PickFit>
+      <!-- modulo di creazione della spirale, in mm.-->
+      <Module FROM="1" TO="10" STEP="1" />
+      <!-- angolo sviluppo spirale, in gradi.-->
+      <Angle FROM="0" TO="359.99" STEP="90" />
+      <!-- rotazione testa in gradi.-->
+      <Rotation FROM="-30" TO="30" STEP="5" />
+      <!-- modulo per la ricerca generalizzata, in mm.-->
+      <GenModule STEP="50" />
+      <!-- angolo per la ricerca generalizzata, in gradi.-->
+      <GenAngle FROM="0" TO="359.99" STEP="30" />
+      <!-- rotazione testa per la ricerca generalizzata in gradi.-->
+      <GenRotation FROM="0" TO="360" STEP="15" />
+      <!-- massima distanza ammessa tra baricentro presa e baricentro elemento da muovere, in mm.-->
+      <GenMaxBaricenterDistance>300</GenMaxBaricenterDistance>
+    </PickFit>
+    <!--Start Simulation-->
+    <SimulationPrg State="1" />
+    <!--Stop Spindle & Water-->
+    <StopSpindle StopSpindle="1" StopWaterWhenPossible="0" StopSpindleOnPick="0" />
+    <!--Stop After Hole-->
+    <StopAfterHole State="0" />
+    <!--Tools Mandrino 1-->
+    <!--Tools Mandrino 2-->
+    <!--Tools Mandrino 3-->
+    <SimulationPrg State="1" />
+    <OtherOrigins>
+      <Origin IdOrigin="1">
+        <X>2200.5480957</X>
+        <Y>1725.2800293</Y>
+        <Z>-583.365</Z>
+      </Origin>
+      <Origin IdOrigin="17">
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Origin>
+      <Origin IdOrigin="19">
+        <X>2617.650879</X>
+        <Y>352.0589905</Y>
+        <Z>-587.289978</Z>
+      </Origin>
+    </OtherOrigins>
+    <Tools HeadId="1">
+      <Tool IdTool="164" Number="1" CuttingEdge="0" ToolType="Disk">
+        <DiskDiameter>399.333</DiskDiameter>
+        <FlangeDiameter>0</FlangeDiameter>
+        <DiskThickness>4</DiskThickness>
+        <CoreThickness>2.5</CoreThickness>
+        <CoreDiameter>390</CoreDiameter>
+        <MinTurningSpeed>0</MinTurningSpeed>
+        <MaxTurningSpeed>2200</MaxTurningSpeed>
+      </Tool>
+      <Tool IdTool="37" Number="3" CuttingEdge="0" ToolType="Drill">
+        <DiskDiameter>100</DiskDiameter>
+        <DiskThickness>36</DiskThickness>
+        <MinTurningSpeed>0</MinTurningSpeed>
+        <MaxTurningSpeed>2700</MaxTurningSpeed>
+      </Tool>
+    </Tools>
+    <Tools HeadId="2">
+      <Tool IdTool="165" Number="1" CuttingEdge="0" ToolType="Disk">
+        <DiskDiameter>402.197</DiskDiameter>
+        <FlangeDiameter>0</FlangeDiameter>
+        <DiskThickness>4</DiskThickness>
+        <CoreThickness>2.5</CoreThickness>
+        <CoreDiameter>390</CoreDiameter>
+        <MinTurningSpeed>0</MinTurningSpeed>
+        <MaxTurningSpeed>2200</MaxTurningSpeed>
+      </Tool>
+    </Tools>
+    <Tools HeadId="3">
+      <Tool IdTool="166" Number="1" CuttingEdge="0" ToolType="Disk">
+        <DiskDiameter>407.332</DiskDiameter>
+        <FlangeDiameter>0</FlangeDiameter>
+        <DiskThickness>4</DiskThickness>
+        <CoreThickness>2.5</CoreThickness>
+        <CoreDiameter>390</CoreDiameter>
+        <MinTurningSpeed>0</MinTurningSpeed>
+        <MaxTurningSpeed>2200</MaxTurningSpeed>
+      </Tool>
+    </Tools>
+    <Messages>
+      <Message Id="PauseRemovePiece">Quitar pieza</Message>
+      <Message Id="PauseRemoveResiduals">Quitar residuos</Message>
+      <Message Id="PauseRemoveOnBoardTool">Quitar la herramienta a bordo si la hay</Message>
+    </Messages>
+  </MachinePlugIn>
+  <ResourceManager Version="1.32.0.767">
+    <MeasureUnits>
+      <MeasureUnit Id="0" Name="" Description="" DescriptionId="0" />
+      <MeasureUnit Id="1" Name="mm." Description="" DescriptionId="1" />
+      <MeasureUnit Id="2" Name="degree" Description="" DescriptionId="2" />
+      <MeasureUnit Id="3" Name="m/min" Description="" DescriptionId="3" />
+      <MeasureUnit Id="4" Name="mm/min" Description="" DescriptionId="4" />
+      <MeasureUnit Id="5" Name="s" Description="" DescriptionId="5" />
+    </MeasureUnits>
+    <Providers>
+      <Provider Id="1" Name="DB_FKSQL">
+        <ConnectionString>DbConnection.udl</ConnectionString>
+      </Provider>
+    </Providers>
+    <Resources>
+      <ResourceInfo>
+        <Resource Id="1" Type="Double" UmId="1" Name="(ParMacch.OutXa)Anticipo inizio taglio passante" Description="Quota anticipo inizio taglio passante" DescriptionId="1" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>ParMacch.OutXa</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="2" Type="Double" UmId="1" Name="(ParMacch.OutXi)Ritardo fine taglio passante" Description="Quota ritardo fine taglio passante" DescriptionId="2" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>ParMacch.OutXi</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="3" Type="Double" UmId="1" Name="(ParMacch.OutXra)Ritardo inizio taglio interrotto" Description="Quota ritardo inizio taglio interrotto" DescriptionId="3" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>ParMacch.OutXra</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="4" Type="Double" UmId="1" Name="(ParMacch.OutXri)Anticipo fine taglio interrotto" Description="Quota anticipo fine taglio interrotto" DescriptionId="4" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>ParMacch.OutXri</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="5" Type="Double" UmId="1" Name="(DeltaCutOutSlab)Prolungamento taglio fino a bordo lastra" Description="Quota prolungamento taglio fino a bordo lastra" DescriptionId="5" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>DeltaCutOutSlab</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="14" Type="Int" UmId="0" Name="(ToolPathType)Sequenza utensili da usare" Description="Sequenza utensili da usare (disco = 0; disco + wj = 1; wj = 3)" DescriptionId="14" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>3</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>ToolPathType</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="29" DescriptionId="29" Type="Int" UmId="0" Name="(ToolPathTypeArcs) Sequenza utensili da usare per archi" Description="Sequenza utensili da usare per archi(disco = 0; disco + wj = 2; wj = 1)" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>2</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>ToolPathTypeArcs</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="30" DescriptionId="30" Type="Double" UmId="1" Name="(CutArcRadiusMin)Raggio minimo per esecuzione arco con disco" Description="Raggio minimo per esecuzione arco con disco" HasLowLimit="true" EnableWrite="false">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutArcRadiusMin</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="49" DescriptionId="49" Type="Int" UmId="0" Name="(Config.CutA45AfterMove)Tagli inclinati dopo movimentazioni" Description="(Config.CutA45AfterMove)Tagli inclinati dopo movimentazioni" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>2</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>Config.CutA45AfterMove</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="50" DescriptionId="50" Type="Double" UmId="1" Name="(CutArcRadiusConvexMin)Raggio minimo per esecuzione arco convesso con disco" Description="Raggio minimo per esecuzione arco con disco che crea una convessità nel materiale" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutArcRadiusConvexMin</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="56" DescriptionId="56" Type="Int" UmId="0" Name="(BridgeAutoOnInternalPaths)Assegnazione ponticelli in automatico fori lavello" Description="Assegnazione ponticelli in automatico fori lavello" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>BridgeAutoOnInternalPaths</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="57" DescriptionId="57" Type="Int" UmId="0" Name="(LimitsToolpath.Enable)Abilitazione auto trimming con rettangolo di limite dei toolpaths, per evitare taglio geometrie rialzate della table rispetto al piano di appoggio" Description="Abilitazione auto trimming con rettangolo di limite dei toolpaths, per evitare taglio geometrie rialzate della table rispetto al piano di appoggio" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>LimitsToolpath.Enable</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="58" DescriptionId="58" Type="Double" UmId="1" Name="(LimitsToolpath.XMin)XMin dei limiti toolpaths per evitare taglio rialzi table" Description="XMin dei limiti toolpaths per evitare taglio rialzi table" VisibleUI="false" />
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>LimitsToolpath.XMin</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="59" DescriptionId="59" Type="Double" UmId="1" Name="(LimitsToolpath.YMin)YMin dei limiti toolpaths per evitare taglio rialzi table" Description="YMin dei limiti toolpaths per evitare taglio rialzi table" VisibleUI="false" />
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>LimitsToolpath.YMin</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="60" DescriptionId="60" Type="Double" UmId="1" Name="(LimitsToolpath.XMax)XMax dei limiti toolpaths per evitare taglio rialzi table" Description="XMax dei limiti toolpaths per evitare taglio rialzi table" VisibleUI="false" />
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>LimitsToolpath.XMax</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="61" DescriptionId="61" Type="Double" UmId="1" Name="(LimitsToolpath.YMax)YMax dei limiti toolpaths per evitare taglio rialzi table" Description="YMax dei limiti toolpaths per evitare taglio rialzi table" VisibleUI="false" />
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>LimitsToolpath.YMax</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="62" DescriptionId="62" Type="Int" UmId="0" Name="(SimulazioneNC)Simulazione NC di alcuni tagli definiti dall'utente per verificare la corretta posizione dello schema di taglio sulla lastra" Description="Simulazione NC di alcuni tagli definiti dall'utente per verificare la corretta posizione dello schema di taglio sulla lastra" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>SimulazioneNC</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="63" DescriptionId="63" Type="Int" UmId="0" Name="(EnableIncision)Abilitazione incisione disco" Description="Abilitazione incisione disco" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>EnableIncision</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="64" DescriptionId="64" Type="Double" UmId="1" Name="(MinIncision)Valore minimo incisione disco" Description="Valore minimo incisione disco" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>MinIncision</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="65" DescriptionId="65" Type="Double" UmId="0" Name="(EnableLimitIncision)Abilitazione bypass incisione disco a causa di valore minimo o mancanza tastatore" Description="Abilitazione bypass incisione disco a causa di valore minimo o mancanza tastatore" HasHighLimit="true" HasLowLimit="true" EnableWrite="false">
+          <HighLimit>1</HighLimit>
+          <LowLimit>-1</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>EnableLimitIncision</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="66" DescriptionId="66" Type="Double" UmId="1" Name="(LimitIncision)Valore minimo incisione disco utilizzato da bypass" Description="Valore minimo incisione disco utilizzato da bypass" HasHighLimit="false" HasLowLimit="true" EnableWrite="false">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>LimitIncision</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="67" DescriptionId="67" Type="Int" UmId="0" Name="(Config.CheckSpessTgIncl)Bypass CAM incisioni a causa di mancanza tastatore e bypass CN esecuzione tastature tagli inclinati" Description="Bypass CAM incisioni a causa di mancanza tastatore e bypass CN esecuzione tastature tagli inclinati" HasHighLimit="true" HasLowLimit="true" EnableWrite="false">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>Config.CheckSpessTgIncl</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="70" DescriptionId="70" Type="Int" UmId="0" Name="(CutInclinedMultiTouch.Enable)Abilitazione della funzionalità di tasteggio multiplo per tagli inclinati" Description="Abilitazione della funzionalità di tasteggio multiplo per tagli inclinati" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutInclinedMultiTouch.Enable</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="71" DescriptionId="71" Type="Double" UmId="1" Name="(CutInclinedMultiTouch.MaxStep)Distanza massima tra i punti risultanti dal tasteggio multiplo" Description="Distanza massima tra i punti risultanti dal tasteggio multiplo" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutInclinedMultiTouch.MaxStep</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="72" DescriptionId="72" Type="Double" UmId="1" Name="(CutInclinedMultiTouch.MinCut)Distanza minima del taglio per l'attivazione del tasteggio multiplo" Description="Distanza minima del taglio per l'attivazione del tasteggio multiplo" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutInclinedMultiTouch.MinCut</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="74" DescriptionId="74" Type="Int" UmId="0" Name="(CutEnabledImportOnDisabledMode)OptiCAMFabMaster: modalità di funzionamento della modalità di disabilitazione definita dal parametro nel side di un percorso di costruzione di un pezzo" Description="OptiCAMFabMaster: modalità di funzionamento della modalità di disabilitazione definita dal parametro nel side di un percorso di costruzione di un pezzo. Funzionamento in 1.4.1.671: gestione CutEnabled di geometrie costruzione di T_PIECES.F_POLYGON impostate da OpticamFabMaster: se nel Side c'è CutEnabled=0 si considera questo parametro per valutare quali utensili disabilitare in CAMTaglio. Esempi: 1) Se CutEnabledImportOnDisabledMode=1=EN_PIECE_GEOCOSTRUCTION_CUTENABLED_IMPORT_ON_DISABLED_MODE.All si disabilitano tutti gli utensili. 2) Se CutEnabledImportOnDisabledMode=2=EN_PIECE_GEOCOSTRUCTION_CUTENABLED_IMPORT_ON_DISABLED_MODE.Disk si disabilita solo il disco. 3) Se CutEnabledImportOnDisabledMode=6=EN_PIECE_GEOCOSTRUCTION_CUTENABLED_IMPORT_ON_DISABLED_MODE.Disk | EN_PIECE_GEOCOSTRUCTION_CUTENABLED_IMPORT_ON_DISABLED_MODE.Waterjet si disabilita il disco e il waterjet" HasLowLimit="true" VisibleUI="false">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutEnabledImportOnDisabledMode</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="79" DescriptionId="79" Type="Double" UmId="0" Name="(BridgeDepthPercentage)Disco ponticelli: Percentuale profondità ponticello" Description="Disco ponticelli: Percentuale profondità ponticello" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>100</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>BridgeDepthPercentage</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="80" DescriptionId="80" Type="Double" UmId="1" Name="(BridgeLength)Disco ponticelli: Lunghezza ponticello" Description="Disco ponticelli: Lunghezza ponticello" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>BridgeLength</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="81" DescriptionId="81" Type="Double" UmId="1" Name="(BridgeMaxDistanceBetween)Disco ponticelli: Distanza massima tra i ponticelli" Description="Disco ponticelli: Distanza massima tra i ponticelli" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>BridgeMaxDistanceBetween</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="52" DescriptionId="52" Type="Int" UmId="0" Name="(DiskForInterruptedSlopedCuts)Disco su lati inclinati ed interrotti" Description="Disco su lati inclinati ed interrotti" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>DiskForInterruptedSlopedCuts</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="55" DescriptionId="55" Type="Double" UmId="1" Name="(MinLungSegDiscoNonCombinato)Lunghezza minima taglio con disco non combinato" Description="Lunghezza minima taglio con disco non combinato" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>MinLungSegDiscoNonCombinato</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="31" DescriptionId="31" Type="Double" UmId="1" Name="(SovrappHole)Foretti: sovrapposizione delle circonferenze" Description="Foretti: sovrapposizione delle circonferenze" />
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>SovrappHole</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="32" DescriptionId="32" Type="Int" UmId="0" Name="(MaxNumHoles)Foretti: numero massimo" Description="Foretti: numero massimo" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>MaxNumHoles</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="73" DescriptionId="73" Type="Int" UmId="0" Name="(MaxNumHolesExternalPaths)Foretti: numero massimo fori di separazione per vertici di percorsi esterni" Description="Foretti: numero massimo fori di separazione per vertici di percorsi esterni" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>MaxNumHolesExternalPaths</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="33" DescriptionId="33" Type="Double" UmId="1" Name="(DistHoleFromSide)Foretti: distanza circonferenza da bordo finito" Description="Foretti: distanza circonferenza da bordo finito" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>DistHoleFromSide</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="45" DescriptionId="45" Type="Int" UmId="0" Name="(PstMagHoleDetachPiece)Posizione magazzino foretto per distacco automatico" Description="(PstMagHoleDetachPiece)Posizione magazzino foretto per distacco automatico" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>3</HighLimit>
+          <LowLimit>2</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>PstMagHoleDetachPiece</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="43" DescriptionId="43" Type="Int" UmId="0" Name="(Config.MndForatore)Abilitazione stazione foratura per blindhole" Description="(Config.MndForatore)Abilitazione stazione foratura per blindhole" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>1</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>Config.MndForatore</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="44" DescriptionId="44" Type="Int" UmId="0" Name="(Config.RoddingBlindholeSequence)Ordine esecuzione rodding e blindhole" Description="(Config.RoddingBlindholeSequence)Ordine esecuzione rodding e blindhole" HasHighLimit="true" HasLowLimit="true">
+          <HighLimit>2</HighLimit>
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>Config.RoddingBlindholeSequence</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="68" DescriptionId="68" Type="Double" UmId="1" Name="(CutStartOffset)Offset di allungamento del taglio in entrata per separazione" Description="Offset di allungamento del taglio in entrata per separazione" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutStartOffset</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+      <ResourceInfo>
+        <Resource Id="69" DescriptionId="69" Type="Double" UmId="1" Name="(CutStopOffset)Offset di allungamento del taglio in uscita per separazione" Description="Offset di allungamento del taglio in uscita per separazione" HasHighLimit="false" HasLowLimit="true">
+          <LowLimit>0</LowLimit>
+        </Resource>
+        <Providers>
+          <Provider Id="1" Priority="3">
+            <ParameterName>CutStopOffset</ParameterName>
+          </Provider>
+        </Providers>
+      </ResourceInfo>
+    </Resources>
+  </ResourceManager>
+</Config>

@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CUT_SCHEME>
+  <Versions BretonTouch="1.32.0+767" XmlCam3="1.2.1.0" Aom3.API="4.21.1.0" CSE="1.32.0+767" CUT_SCHEME_VERSION="3.0.0.0" />
+  <CutSchemeGuid SLAB00000000046947="19625f46-2b16-40d8-90b4-1a60fd2c5b31">
+    <T_PARAMETERS Guid="77c46447-0000-0000-0000-000000000000" />
+  </CutSchemeGuid>
+  <Slab Id="153140" Code="SLAB00000000046947" Length="2988.04516601563" Width="1681.9619140625" Thickness="30" ThicknessId="577" MaterialId="903">
+    <Tool IdTool="170">
+      <DiskDiameter>405.734</DiskDiameter>
+      <DiskThickness>3.8</DiskThickness>
+      <DiskGroove>110.359444036626</DiskGroove>
+    </Tool>
+    <Zone>
+      <Attributes />
+      <MatrixRT m00="1" m01="0" m02="99.9999995271189" m10="0" m11="1" m12="38.5453422700562" m20="0" m21="0" m22="1" />
+      <Path Type="" Mode="EN_PATH_MODE_UNKNOW">
+        <Attributes>
+          <__INTERNAL_NAME_ value="INST_207139" />
+        </Attributes>
+        <Segment X1="0" Y1="0" X2="2988.04510144928" Y2="0" />
+        <Segment X1="2988.04510144928" Y1="0" X2="2988.04510144928" Y2="1681.96185507247" />
+        <Segment X1="2988.04510144928" Y1="1681.96185507247" X2="0" Y2="1681.96185507247" />
+        <Segment X1="0" Y1="1681.96185507247" X2="0" Y2="0" />
+      </Path>
+    </Zone>
+    <Group Id="385590" Code="GR_0040">
+      <Piece Id="662493" Code="_SP00023588_103" Type="1" Discard="1">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="1845.08921131471" m10="0" m11="1" m12="802.567482056901" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="32" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Arc Xc="6439.56250012761" Yc="130.999593266914" R="6439.5625000084" Alpha="3.10898833686684" Beta="0.052948653810913" />
+            <Segment X1="1.33259602278849" Y1="1.19207470561378E-07" X2="1004.32987081755" Y2="1.19209289550781E-07" />
+            <Arc Xc="4882.33246635551" Yc="259.641369353321" R="3886.68467612397" Alpha="3.20844522663227" Beta="-0.0759455948666466" />
+            <Segment X1="995.808470588127" Y1="294.982590912304" X2="3.42245790831657" Y2="340.919931623814" />
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="6439.56250012761" Yc="130.999593266914" R="6441.4625000084" Alpha="3.10898833686684" Beta="0.052948653810913" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.52913766823631" Y1="-1.89999988079253" X2="1007.36393324464" Y2="-1.8999998807907" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <SideInclination value="0" />
+            <ToolInclination value="2.99193479278229" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="4882.33246635551" Yc="259.641369353321" R="3884.78208268344" Alpha="3.20844522663227" Beta="-0.0759455948666466" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="998.723968471646" Y1="296.749667644007" X2="0.587326009038686" Y2="342.953203803924" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="385591" Code="GR_0033">
+      <Piece Id="662494" Code="_SP00023581_104" Type="1" Discard="1">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="1808.40389471003" m10="0" m11="1" m12="120.647447552288" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="32" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="1099.69203623738" Y1="292.484697787017" X2="39.2599207095191" Y2="338.754489979171" />
+            <Arc Xc="6414.13355421946" Yc="-571.713163556263" R="6439.56249999599" Alpha="2.99973073840391" Beta="0.0529635011675412" />
+            <Segment X1="1.19207470561378E-07" Y1="1.19211108540185E-07" X2="1119.98692008185" Y2="1.19208380056079E-07" />
+            <Arc Xc="3926.496177254" Yc="341.68409682463" R="2827.23225656018" Alpha="3.26274342735475" Beta="-0.103747929543529" />
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="1102.55969226949" Y1="294.261381249196" X2="36.6234138717719" Y2="340.771336360268" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="6414.13355421946" Yc="-571.713163556263" R="6441.46249999599" Alpha="2.99973073840391" Beta="0.0529635011675412" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-3.07688581536431" Y1="-1.89999988078888" X2="1123.13721532867" Y2="-1.89999988079163" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <SideInclination value="0" />
+            <ToolInclination value="4.11477350717614" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="3926.496177254" Yc="341.68409682463" R="2825.32734630047" Alpha="3.26274342735475" Beta="-0.103747929543529" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="385592" Code="GR_0032">
+      <Piece Id="662495" Code="_SP00023580_105" Type="1" Discard="1">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="244.461623922295" m10="0" m11="1" m12="1187.16620021" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="32" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="1157.84486400046" Y1="296.483410341733" X2="43.4190338937024" Y2="338.29550649393" />
+            <Arc Xc="6406.63944542465" Yc="-650.335458813524" R="6439.56249999089" Alpha="2.98745852083405" Beta="0.0529710433213996" />
+            <Segment X1="1.19211108540185E-07" Y1="1.19209744298132E-07" X2="1176.98543436277" Y2="1.19209744298132E-07" />
+            <Arc Xc="5953.21469807328" Yc="457.206489926948" R="4798.06249999382" Alpha="3.23702726903566" Beta="-0.0619308517513479" />
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="1160.68381535694" Y1="298.278232662747" X2="40.801777273049" Y2="340.295040054044" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="6406.63944542465" Yc="-650.335458813524" R="6441.46249999089" Alpha="2.98745852083405" Beta="0.0529710433213996" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-3.10263203871777" Y1="-1.89999988079026" X2="1180.07770632542" Y2="-1.89999988079026" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <SideInclination value="0" />
+            <ToolInclination value="2.42324664619571" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="5953.21469807328" Yc="457.206489926948" R="4796.16079941259" Alpha="3.23702726903566" Beta="-0.0619308517513479" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="385593" Code="GR_0030">
+      <Piece Id="662496" Code="_SP00023578_106" Type="1" Discard="1">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="330.130599739687" m10="0" m11="1" m12="608.40580617597" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="32" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="1.19206561066676E-07" X2="1309.97039261614" Y2="1.19209289550781E-07" />
+            <Arc Xc="6146.80613581097" Yc="546.06289465764" R="4867.56250000334" Alpha="3.25401336130245" Beta="-0.0614601764876012" />
+            <Segment X1="1285.56273895296" Y1="298.116674797026" X2="55.5803592089196" Y2="338.587755103368" />
+            <Segment X1="55.5803592089196" Y1="338.587755103368" X2="0" Y2="1.19206561066676E-07" />
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-3.23732049962774" Y1="-1.89999988079345" X2="1313.09862923241" Y2="-1.8999998807907" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <SideInclination value="0" />
+            <ToolInclination value="2.3886268570272" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="6146.80613581097" Yc="546.06289465764" R="4865.66084770079" Alpha="3.25401336130245" Beta="-0.0614601764876012" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="1288.37074168647" Y1="299.925309116571" X2="52.9761990509302" Y2="340.574470087011" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="54.1376436900767" Y1="341.528377229106" X2="-2.39930602926855" Y2="-2.88679301422465" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="385594" Code="GR_0029">
+      <Piece Id="662497" Code="_SP00023577_107" Type="1" Discard="1">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="100.592151359368" m10="0" m11="1" m12="55.5755988600276" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="32" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="1361.87611476869" Y1="299.128667351388" X2="57.6821399608289" Y2="339.275166162639" />
+            <Segment X1="57.6821399608289" Y1="339.275166162639" X2="0" Y2="1.19207470561378E-07" />
+            <Segment X1="0" Y1="1.19207470561378E-07" X2="1396.96205708108" Y2="1.19207470561378E-07" />
+            <Arc Xc="6281.08168991648" Yc="724.499036416124" R="4937.56250000376" Alpha="3.28885647749417" Beta="-0.0610070315801957" />
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="1364.62300929488" Y1="300.945010737049" X2="55.0868832630904" Y2="341.255954923684" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="56.25402045112" Y1="342.211040156704" X2="-2.41790514863977" Y2="-2.88585315315259" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-3.25029451241114" Y1="-1.89999988079253" X2="1400.16631211608" Y2="-1.89999988079253" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <SideInclination value="0" />
+            <ToolInclination value="2.35474399259741" />
+            <SideDirection value="0" />
+            <Type value="276" />
+            <Depth value="32" />
+            <IsHole value="0" />
+          </Attributes>
+          <Arc Xc="6281.08168991648" Yc="724.499036416124" R="4935.6608942776" Alpha="3.28885647749417" Beta="-0.0610070315801957" />
+        </Path>
+      </Piece>
+    </Group>
+  </Slab>
+</CUT_SCHEME>

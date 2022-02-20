@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandsLog Aom3Version="4.21.1.0" Date="2022-02-14 20:46:46.089">
+  <Data>
+    <Item Name="Config" Value="CME_00002047_CONFIG.xml" />
+    <Item Name="Schema" Value="CME_00002047_CUT_SCHEME.xml" />
+  </Data>
+  <Command Name="DiskCut" InputSource="GetAvailableSeparationCuts" InputKey="PC662354_TP01" />
+  <Command Name="DiskCut" InputSource="GetAvailableSeparationCuts" InputKey="PC662347_TP02,PC662348_TP02,PC662351_TP00,PC662352_TP00,PC662353_TP00" />
+  <Command Name="PickAndPlacePartition" InputSource="GetMovablePartitions" InputKey="SLAB00000000046929_01_01">
+    <Data>
+      <Item Name="X" Value="1146.516" />
+      <Item Name="Y" Value="2184.16505444562" />
+      <Item Name="Rotation" Value="0" />
+      <Item Name="Parent" Value="" />
+    </Data>
+  </Command>
+  <Command Name="CompletePartitionWorkings" InputSource="GetCompletablePartitions" InputKey="SLAB00000000046929_01_01" />
+  <Command Name="CompletePartitionWorkings" InputSource="GetCompletablePartitions" InputKey="SLAB00000000046929_01_02" />
+  <Command Name="CompletePartitionWorkings" InputSource="GetCompletablePartitions" InputKey="SLAB00000000046929_02_01" />
+</CommandsLog>

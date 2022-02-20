@@ -1,0 +1,224 @@
+N10 ;************************* Start Program *****
+N20 ;TABLE(1) ;Table Select
+N30 HOME
+N40 SETORI(18) ;Origin Select
+N50 STOPRE
+N60 ;************************* Load *****
+N70 STOPRE
+N80 R308=1
+N90 R361=0.000 ;Time from start
+N100 R362=274.694 ;Time to end
+N110 STOPRE
+N120 ;FIXLOAD(,100) ;Slab Load
+N130 ;************************* ToolChange *****
+N140 STOPRE
+N150 R308=2
+N160 R361=0.000 ;Time from start
+N170 R362=274.694 ;Time to end
+N180 STOPRE
+N190 TOOL(1,1,0,0.0,202.051) ;Tool Change
+N200 SETORI(18)
+N210 ;************************* Move *****
+N220 STOPRE
+N230 R308=3
+N240 R361=0.000 ;Time from start
+N250 R362=274.694 ;Time to end
+N260 STOPRE
+N270 G0G90 X=2278.707Y=2652.052Z=242.051W=-90.000X2=844.177Z2=380.351 ;Rapid positioning
+N280 ;************************* Cut *****
+N290 STOPRE
+N300 R308=4
+N310 R361=5.048 ;Time from start
+N320 R362=269.646 ;Time to end
+N330 STOPRE
+N340 VIS_TECNO=0
+N350 M1=7M2=7 ; Start Water
+N360 M1=4M2=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N370 STOPRE
+N380 G25 Z=R360
+N390 G1G90 Z=227.051Z2=365.351 F=FEEDAPP  ;Approach positioning
+N400 G1G90 Z=200.051Z2=338.351 F=VINC_Z[0]  ;Incision
+N410 CUT_FLEX(1205.800,3) ;Linear Cut
+N420 G1G90 Z=227.051Z2=365.351 F=FEEDSV  ;Out positioning
+N430 G0G90 Z=242.051Z2=380.351 ;Rapid positioning
+N440 ;************************* Move *****
+N450 STOPRE
+N460 R308=9
+N470 R361=48.473 ;Time from start
+N480 R362=226.221 ;Time to end
+N490 STOPRE
+N500 G0G90 X=2133.399Y=1298.257X2=1366.961X3=863.161Z3=381.250 ;Rapid positioning
+N510 ;************************* Cut *****
+N520 STOPRE
+N530 R308=10
+N540 R361=52.763 ;Time from start
+N550 R362=221.931 ;Time to end
+N560 STOPRE
+N570 VIS_TECNO=0
+N580 M1=7M2=7M3=7 ; Start Water
+N590 M1=4M2=4M3=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N600 STOPRE
+N610 G25 Z=R360
+N620 G1G90 Z=227.051Z2=365.351Z3=366.250 F=FEEDAPP  ;Approach positioning
+N630 G1G90 Z=200.051Z2=338.351Z3=339.250 F=VINC_Z[0]  ;Incision
+N640 CUT_FLEX(1019.065,7) ;Linear Cut
+N650 G1G90 Z=227.051Z2=365.351Z3=366.250 F=FEEDSV  ;Out positioning
+N660 G0G90 Z=242.051Z2=380.351Z3=381.250 ;Rapid positioning
+N670 ;************************* Move *****
+N680 STOPRE
+N690 R308=15
+N700 R361=92.098 ;Time from start
+N710 R362=182.595 ;Time to end
+N720 STOPRE
+N730 G0G90 X=1829.599Y=1298.257X2=1296.744 ;Rapid positioning
+N740 ;************************* Cut *****
+N750 STOPRE
+N760 R308=16
+N770 R361=95.023 ;Time from start
+N780 R362=179.671 ;Time to end
+N790 STOPRE
+N800 VIS_TECNO=0
+N810 M1=7 ; Start Water
+N820 M1=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N830 STOPRE
+N840 G25 Z=R360
+N850 G1G90 Z=227.051 F=FEEDAPP  ;Approach positioning
+N860 G1G90 Z=200.051 F=VINC_Z[0]  ;Incision
+N870 CUT_FLEX(605.800,1) ;Linear Cut
+N880 G1G90 Z=227.051 F=FEEDSV  ;Out positioning
+N890 G0G90 Z=242.051 ;Rapid positioning
+N900 ;************************* Move *****
+N910 STOPRE
+N920 R308=21
+N930 R361=119.176 ;Time from start
+N940 R362=155.518 ;Time to end
+N950 STOPRE
+N960 G0G90 X=2207.214Y=169.332X2=972.684X3=663.884 ;Rapid positioning
+N970 ;************************* Cut *****
+N980 STOPRE
+N990 R308=22
+N1000 R361=121.901 ;Time from start
+N1010 R362=152.792 ;Time to end
+N1020 STOPRE
+N1030 VIS_TECNO=0
+N1040 M1=7M2=7 ; Start Water
+N1050 M1=4M2=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N1060 STOPRE
+N1070 G25 Z=R360
+N1080 G1G90 Z=227.051Z2=365.351 F=FEEDAPP  ;Approach positioning
+N1090 G1G90 Z=200.051Z2=338.351 F=VINC_Z[0]  ;Incision
+N1100 CUT_FLEX(505.800,3) ;Linear Cut
+N1110 G1G90 Z=227.051Z2=365.351 F=FEEDSV  ;Out positioning
+N1120 G0G90 Z=242.051Z2=380.351 ;Rapid positioning
+N1130 ;************************* Move *****
+N1140 STOPRE
+N1150 R308=27
+N1160 R361=143.864 ;Time from start
+N1170 R362=130.829 ;Time to end
+N1180 STOPRE
+N1190 G0G90 X=3394.848Y=984.566W=0.000X2=2660.318X3=1531.393 ;Rapid positioning
+N1200 ;************************* Cut *****
+N1210 STOPRE
+N1220 R308=28
+N1230 R361=148.912 ;Time from start
+N1240 R362=125.782 ;Time to end
+N1250 STOPRE
+N1260 VIS_TECNO=0
+N1270 M1=7M2=7M3=7 ; Start Water
+N1280 M1=4M2=4M3=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N1290 STOPRE
+N1300 G25 Z=R360
+N1310 G1G90 Z=227.051Z2=365.351Z3=366.250 F=FEEDAPP  ;Approach positioning
+N1320 G1G90 Z=200.051Z2=338.351Z3=339.250 F=VINC_Z[0]  ;Incision
+N1330 CUT_FLEX(1005.800,7) ;Linear Cut
+N1340 G1G90 Z=227.051Z2=365.351Z3=366.250 F=FEEDSV  ;Out positioning
+N1350 G0G90 Z=242.051Z2=380.351Z3=381.250 ;Rapid positioning
+N1360 ;************************* Move *****
+N1370 STOPRE
+N1380 R308=33
+N1390 R361=181.825 ;Time from start
+N1400 R362=92.869 ;Time to end
+N1410 STOPRE
+N1420 G0G90 X=2779.188Y=1056.059X2=1381.398X3=177.598 ;Rapid positioning
+N1430 ;************************* Cut - Close *****
+N1440 STOPRE
+N1450 R308=34
+N1460 R361=185.263 ;Time from start
+N1470 R362=89.431 ;Time to end
+N1480 STOPRE
+N1490 VIS_TECNO=0
+N1500 M1=7M2=7M3=7 ; Start Water
+N1510 M1=4M2=4M3=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N1520 STOPRE
+N1530 G25 Z=R360
+N1540 G1G90 Z=227.051Z2=365.351Z3=366.250 F=FEEDAPP  ;Approach positioning
+N1550 G1G90 Z=200.051Z2=338.351Z3=339.250 F=VINC_Z[0]  ;Incision
+N1560 CUT_FLEX(1205.800,7) ;Linear Cut
+N1570 G1G90 Z=227.051Z2=365.351Z3=366.250 F=FEEDSV  ;Out positioning
+N1580 G0G90 Z=242.051Z2=380.351Z3=381.250 ;Rapid positioning
+N1590 M3=5 ;Stop Spindles
+N1600 M3=9 ;Stop water
+N1610 ;************************* Move *****
+N1620 STOPRE
+N1630 R308=39
+N1640 R361=222.556 ;Time from start
+N1650 R362=52.138 ;Time to end
+N1660 STOPRE
+N1670 G0G90 Y=375.140X2=1544.658 ;Rapid positioning
+N1680 ;************************* Cut - Close *****
+N1690 STOPRE
+N1700 R308=40
+N1710 R361=225.281 ;Time from start
+N1720 R362=49.412 ;Time to end
+N1730 STOPRE
+N1740 VIS_TECNO=0
+N1750 M2=7 ; Start Water
+N1760 M2=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N1770 STOPRE
+N1780 G25 Z=R360
+N1790 G1G90 Z2=365.351 F=FEEDAPP  ;Approach positioning
+N1800 G1G90 Z2=338.351 F=VINC_Z[0]  ;Incision
+N1810 CUT_FLEX(505.800,2) ;Linear Cut
+N1820 G1G90 Z2=365.351 F=FEEDSV  ;Out positioning
+N1830 G0G90 Z2=380.351 ;Rapid positioning
+N1840 M2=5 ;Stop Spindles
+N1850 M2=9 ;Stop water
+N1860 ;************************* Move *****
+N1870 STOPRE
+N1880 R308=45
+N1890 R361=247.244 ;Time from start
+N1900 R362=27.449 ;Time to end
+N1910 STOPRE
+N1920 G0G90 X=2365.923Y=910.751 ;Rapid positioning
+N1930 ;************************* Cut - Close *****
+N1940 STOPRE
+N1950 R308=46
+N1960 R361=250.203 ;Time from start
+N1970 R362=24.490 ;Time to end
+N1980 STOPRE
+N1990 VIS_TECNO=0
+N2000 M1=7 ; Start Water
+N2010 M1=4  S=VEL_DISP[0] S2=VEL_DISP2 ;Start Spindles
+N2020 STOPRE
+N2030 G25 Z=R360
+N2040 G1G90 Z=227.051 F=FEEDAPP  ;Approach positioning
+N2050 G1G90 Z=200.051 F=VINC_Z[0]  ;Incision
+N2060 CUT_FLEX(305.800,1) ;Linear Cut
+N2070 G1G90 Z=227.051 F=FEEDSV  ;Out positioning
+N2080 G0G90 Z=242.051 ;Rapid positioning
+N2090 M1=5 ;Stop Spindles
+N2100 M1=9 ;Stop water
+N2110 ;************************* Move *****
+N2120 STOPRE
+N2130 R308=51
+N2140 R361=269.849 ;Time from start
+N2150 R362=4.844 ;Time to end
+N2160 STOPRE
+N2170 G0G90 X=3553.484Y=2812.908Z=585.045X2=-726.516Z2=585.045X3=-1046.516Z3=585.045 ;Rapid positioning
+N2180 ;************************* EndProgram *****
+N2190 STOPRE
+N2200 R308=52
+N2210 R361=0.000 ;Time from start
+N2220 R362=0.000 ;Time to end
+N2230 STOPRE
+N2240 M30 ;End program

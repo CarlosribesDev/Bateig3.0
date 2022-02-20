@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CUT_SCHEME>
+  <Versions BretonTouch="1.32.0+767" XmlCam3="1.2.1.0" Aom3.API="4.21.1.0" CSE="1.32.0+767" CUT_SCHEME_VERSION="3.0.0.0" />
+  <CutSchemeGuid SLAB00000000046947="1d21fe37-44f3-40ce-814c-e5c7830c5aeb">
+    <T_PARAMETERS Guid="77c4e157-0000-0000-0000-000000000000" />
+  </CutSchemeGuid>
+  <Slab Id="153140" Code="SLAB00000000046947" Length="2988.04516601563" Width="1681.9619140625" Thickness="30" ThicknessId="577" MaterialId="903">
+    <Tool IdTool="170">
+      <DiskDiameter>405.9</DiskDiameter>
+      <DiskThickness>3.8</DiskThickness>
+      <DiskGroove>110.383728223169</DiskGroove>
+    </Tool>
+    <Zone>
+      <Attributes />
+      <MatrixRT m00="1" m01="0" m02="99.9999995271189" m10="0" m11="1" m12="38.5453422700562" m20="0" m21="0" m22="1" />
+      <Path Type="" Mode="EN_PATH_MODE_UNKNOW">
+        <Attributes>
+          <__INTERNAL_NAME_ value="INST_207139" />
+        </Attributes>
+        <Segment X1="0" Y1="0" X2="2988.04510144928" Y2="0" />
+        <Segment X1="2988.04510144928" Y1="0" X2="2988.04510144928" Y2="1681.96185507247" />
+        <Segment X1="2988.04510144928" Y1="1681.96185507247" X2="0" Y2="1681.96185507247" />
+        <Segment X1="0" Y1="1681.96185507247" X2="0" Y2="0" />
+      </Path>
+    </Zone>
+    <Group Id="385583" Code="GR_0001">
+      <Piece Id="662486" Code="_SP00023570_005" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="84.7673013565217" m10="0" m11="1" m12="42.4194504695652" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="1" />
+              <SideDirection value="2" />
+              <SideDirection value="2" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="32" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="10.5956107922045" Y1="291.011073687116" X2="1.19209289550781E-07" Y2="11.2116071665168" />
+            <Arc Xc="587.301592724694" Yc="15388.0197261749" R="15388.0197260557" Alpha="4.67421355045277" Beta="0.0763568818226655" />
+            <Segment X1="1174.69578382504" Y1="11.2151441513433" X2="1164.00757465742" Y2="291.011073687116" />
+            <Arc Xc="587.301592724813" Yc="15388.0197261755" R="15108.0197260563" Alpha="4.75057043227543" Beta="-0.0763629037814869" />
+          </Path>
+        </Zone>
+      </Piece>
+    </Group>
+  </Slab>
+</CUT_SCHEME>
