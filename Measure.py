@@ -8,7 +8,8 @@ class Measure():
         self.m2 = piece.m2
         self.material = piece.material
         self.report = report
-        self.measures = '{} x {} x {} {}'.format(piece.length,piece.width,piece.thick,piece.material)
+        
+        self.measures = f'{piece.length} x {piece.width} x {piece.thick} {piece.material}'
     
     def measure_exist(self):
 

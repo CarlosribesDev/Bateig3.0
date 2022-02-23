@@ -18,8 +18,6 @@ class Slab():
         self.thick = 0
         self.m2 = 0
         
-        
-
     def __str__(self):
         string = ''
         string += f'{self.code}\n'
@@ -28,7 +26,6 @@ class Slab():
         
             string += f'{piece.length} x {piece.width} x {piece.thick} \n'
 
-
         return string
 
     def set_material(self,material):
@@ -36,5 +33,11 @@ class Slab():
         self.material = material
         for piece in self.pieces_list:
             piece.material = material
+    
+    def set_dimensions(self,width,length,thick):
+        self.width = width
+        self.length = length
+        self.thick = thick
+        self.m2 = (length * width) / 10000
 
     

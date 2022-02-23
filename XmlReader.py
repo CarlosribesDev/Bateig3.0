@@ -6,12 +6,11 @@ from Data import load_data
 
 class XmlReader():
 
-    def __init__(self,folder_path,first_slab_code):
+    def __init__(self,folder_path):
 
         self.folder_path = folder_path
-        self.first_slab_code = first_slab_code
-    
-    def get_first_xml_code(self):
+      
+    def get_first_xml_code(self,first_slab_code):
 
         try:
             folder = os.listdir(self.folder_path)
@@ -22,7 +21,7 @@ class XmlReader():
             
             file_slab_code = file[13:31]
 
-            if (file_slab_code == self.first_slab_code):
+            if (file_slab_code == first_slab_code):
                 
                 file_code = file[4:12]
                 return file_code
@@ -30,60 +29,37 @@ class XmlReader():
         #si no se ha encontrado el archivo
         raise XmlNotFound(self.first_slab_code)
         
-    def get_all_slab_data(self,slab_list,first_code):
-        
+    def get_xml_slabs_data(self,slab_code_set,first_code):
+      
         file_code = first_code
+        code_list = list(slab_code_set)
+        slab_data_dic = {}
        
-        for slab in slab_list:
-   
+        
+        read_files = 0
+        while(len(code_list) != 0 and read_files < 200):
+
             try:
-                self.set_slab_data(slab,file_code)
-            except:
-               continue
-            
-            file_code = str(int(file_code) + 1).zfill(8)      
-
-    def set_slab_data(self,slab,file_code):
-
-        try:
-            
-            root = self.get_xml_data(file_code)
-        except Exception as e:            
-            raise e  
-        #Combramos que sea el codigo de la tabla,si no,pasamos al siguiente
-       
-        code_correct = False
-       
-        while(not code_correct):
-            code = root[2].attrib['Code']
-       
-            if(slab.code == code): code_correct = True
-            else:
                 
-                file_code = str(int(file_code) + 1).zfill(8)
-                try:
-                    root = self.get_xml_data(file_code)
-                except Exception as e:            
-                    raise e
+                slab_data = self.get_slab_data(file_code,code_list)
+                if( slab_data != False):
+                    slab_data_dic.update(slab_data)
+                   
+            except:
 
-        
-        #Dimensiones
-        slab.length =  root[2].attrib['Length'] 
-        slab.width =  root[2].attrib['Width']
-        slab.thick = float(root[2].attrib['Thickness'])/10
-        slab.m2 = (float(slab.length) * float(slab.width)) / 1000000
-        
-        #Material
-        data = load_data()
-        material_id = root[2].attrib['MaterialId']
-        materials_list = data['materials']
-        material = materials_list[material_id] 
-        slab.set_material(material)
+                print('erro añadiendo datos de tabla')
 
+            read_files += 1
+            file_code = str(int(file_code) + 1).zfill(8)  
+
+        return slab_data_dic
+
+    def get_slab_data(self,file_code,code_list):
         
-    def get_xml_data(self,file_code):
-       
+        
+
         file_name = f'{self.folder_path}/CME_{file_code}_CUT_SCHEME.xml'
+
         try:
             
             tree = ET.parse(file_name)
@@ -92,4 +68,34 @@ class XmlReader():
             raise FileCantOpen(f'CME_{file_code}_CUT_SCHEME.xml')
 
         root = tree.getroot()
-        return root
+        
+        code = root[2].attrib['Code']
+        #Dimensiones
+        length =  float(root[2].attrib['Length']) 
+        width =  float(root[2].attrib['Width'])
+        thick = float(root[2].attrib['Thickness'])/10
+        
+        #Material
+        data = load_data()
+        material_id = root[2].attrib['MaterialId']
+        materials_list = data['materials']
+        material = materials_list[material_id]
+
+        if(code in code_list):
+            slab_data = {
+                code : {
+                    'length' : length,
+                    'width' : width,
+                    'thick' : thick,
+                    'material' : material
+
+                }
+                
+            }
+            code_list.remove(code)
+            return slab_data
+        else: return False
+       
+               
+        
+            

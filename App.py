@@ -1,5 +1,5 @@
 import time
-from tkinter import Tk,Label,LabelFrame,Button,ttk,filedialog,Entry,StringVar
+from tkinter import END, Tk,Label,LabelFrame,Button,ttk,filedialog,Entry,StringVar
 from Report import Report
 import Data
 from Excel import export_to_excel
@@ -259,6 +259,11 @@ class App(ttk.Frame):
         self.end_hour.set("14")
         self.start_min.set("00")
         self.end_min.set("00")
+        ######TEST#########
+        self.week_day.set("Miércoles")
+        self.first_slab.insert(0,46983)
+
+        self.last_slab.insert(0,47023)
 
 
 #endregion
