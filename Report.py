@@ -7,6 +7,7 @@ from MeasureSlab import MeasureSlab
 from TxtReader import TxtReader
 from XmlReader import XmlReader
 from Exceptions import SlabCodeNotFound
+from Piece import Piece
 
 class Report():
     
@@ -17,7 +18,7 @@ class Report():
         self.pieces_list = []
         self.slab_list = []
         self.slab_code_set = set()
-       # self.materials_list = []
+       
         self.measures_list = []
         self.measures_slab_list = []
         self.total_m2 = 0
@@ -41,7 +42,9 @@ class Report():
         try:
             txt_slab_list = txt_reader.get_txt_slabs()
             self.date = txt_reader.get_txt_date()
+         
         except Exception as e:
+           
             raise e
         
         #comprobar que el primero codigo existe
@@ -122,24 +125,22 @@ class Report():
                 thick = slab_data['thick']
                 ) 
             slab.set_material(slab_data['material'])
+
     def get_total(self):
 
         self.total_slabs = len(self.slab_list)
         self.total_pieces = len(self.pieces_list)
         if(len(self.slab_list) > 1) : self.avegare_time()
         
-        
-        
-
     #agrupa todas las losas en medias
     def group_by_measures(self):
 
-       
+        
         #losas
         for piece in self.pieces_list:
             
             measure = Measure(piece,self)
-          
+                
             if( not measure.measure_exist()):
                 
                 self.measures_list.append(measure)

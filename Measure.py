@@ -12,7 +12,7 @@ class Measure():
         self.measures = f'{piece.length} x {piece.width} x {piece.thick} {piece.material}'
     
     def measure_exist(self):
-
+        
         for measure in self.report.measures_list:
 
             if(measure.measures == self.measures) :

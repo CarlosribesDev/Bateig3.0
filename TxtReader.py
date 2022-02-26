@@ -39,7 +39,7 @@ class TxtReader():
 
         #comprobar cada tabla(se ignora la primera que no es una tabla)
         for txt_slab_data in txt_slab_list[1:]:
-
+          
             #intenta leear una nueva tabla
             try:
                 #coge la hora de la tabla 
@@ -47,13 +47,16 @@ class TxtReader():
                 minute = int(txt_slab_data[15:17])
                 seconds = int(txt_slab_data[18:20])
 
+             
                 slab = Slab(hour,minute,seconds)
                 #separa las piezas por patron 
-                txt_pieces_list = txt_slab_data.split("_SP")
-
-                for pieces_data in txt_pieces_list[1:]:
+                txt_pieces_list = txt_slab_data.split("SP")
+                
+              
+                for txt_piece in txt_pieces_list[1:]:
+                 
                     #coge los datos de la losa
-                    data_list = pieces_data.split("|")               
+                    data_list = txt_piece.split("|")               
                     #largo
                     length = int(data_list[12].strip()[:-3])/10                   
                     #ancho

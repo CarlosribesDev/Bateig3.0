@@ -22,7 +22,11 @@ from Excel import export_to_excel
 def open_window(root,w,h,title):
  
     root.title(title)
-    root.iconbitmap("static/LogoBateig.ico")
+    try:
+        root.iconbitmap("LogoBateig.ico")
+    except:
+        print('no encuentra icono')
+    
     # get screen width and height
     ws = root.winfo_screenwidth() # width of the screen
     hs = root.winfo_screenheight() # height of the screen
@@ -260,10 +264,10 @@ class App(ttk.Frame):
         self.start_min.set("00")
         self.end_min.set("00")
         ######TEST#########
-        self.week_day.set("Miércoles")
-        self.first_slab.insert(0,46983)
+        # self.week_day.set("Viernes")
+        # self.first_slab.insert(0,47499)
 
-        self.last_slab.insert(0,47023)
+        # self.last_slab.insert(0,47505)
 
 
 #endregion

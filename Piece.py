@@ -5,13 +5,20 @@ class Piece():
         self.length = length
         self.width = width
         self.thick = thick
-        self.amount = 1
         self.m2 = m2
         self.code = code
+        self.amount = 1
         self.material = 'sin material'
         self.measure = (length,width,thick)
 
     def __str__(self):
 
-        return f'{self.length} x {self.width} x {self.thick}'
+        return f'{self.length} x {self.width} x {self.thick} {self.material}'
+
+   
+            
+        
+
+
+
     

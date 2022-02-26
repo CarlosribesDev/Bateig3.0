@@ -1,11 +1,6 @@
 
-from Data import load_data
-import xml.etree.ElementTree as ET
-
 class Slab():
-
     
-
     def __init__(self,hour,minutes,seconds):
         self.hour = hour
         self.minutes = minutes
