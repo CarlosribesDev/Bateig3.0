@@ -1,0 +1,3712 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CUT_SCHEME>
+  <Versions BretonTouch="1.102.0+876" XmlCam3="2.12.0.0" Aom3.API="4.75.0.0" CSE="1.102.0+876" CUT_SCHEME_VERSION="3.0.0.0" />
+  <CutSchemeGuid SLAB00000000047514="2e2f24a9-9db4-4f16-94b0-8e33467790d0">
+    <T_PARAMETERS Guid="4c4457a2-0000-0000-0000-000000000000" />
+  </CutSchemeGuid>
+  <Slab Id="153707" Code="SLAB00000000047514" Length="2756.43994140625" Width="1609.82995605469" Thickness="30" ThicknessId="561" MaterialId="895">
+    <Tool IdTool="170">
+      <DiskDiameter>411.367</DiskDiameter>
+      <DiskThickness>3.8</DiskThickness>
+      <DiskGroove>110.706170747137</DiskGroove>
+    </Tool>
+    <Zone>
+      <Attributes />
+      <MatrixRT m00="1" m01="0" m02="99.9999997253418" m10="0" m11="1" m12="35.07" m20="0" m21="0" m22="1" />
+      <Path Type="" Mode="EN_PATH_MODE_UNKNOW">
+        <Attributes>
+          <__INTERNAL_NAME_ value="INST_89709" />
+        </Attributes>
+        <Segment X1="0" Y1="1609.83" X2="0" Y2="0" />
+        <Segment X1="0" Y1="0" X2="2756.44" Y2="0" />
+        <Segment X1="2756.44" Y1="0" X2="2756.44" Y2="1224.7" />
+        <Segment X1="2756.44" Y1="1224.7" X2="2652.23" Y2="1609.83" />
+        <Segment X1="2652.23" Y1="1609.83" X2="0" Y2="1609.83" />
+      </Path>
+    </Zone>
+    <Group Id="390859" Code="GR_0031">
+      <Piece Id="668452" Code="SP00023826" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="57.086568832348" m10="0" m11="1" m12="225.334724259826" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="700" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="700" Y1="0" X2="700" Y2="282">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="700" Y1="282" X2="0" Y2="282">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="282" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="711.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="701.9" Y1="-11.9" X2="701.9" Y2="293.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="711.9" Y1="283.9" X2="-11.9" Y2="283.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="293.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390860" Code="GR_0032">
+      <Piece Id="668453" Code="SP00023827" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="57.086568832348" m10="0" m11="1" m12="511.134724259826" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="700" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="700" Y1="0" X2="700" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="700" Y1="281" X2="0" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="281" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="711.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="701.9" Y1="-11.9" X2="701.9" Y2="292.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="711.9" Y1="282.9" X2="-11.9" Y2="282.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="292.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390861" Code="GR_0033">
+      <Piece Id="668454" Code="SP00023827_030" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="67.2709038789565" m10="0" m11="1" m12="1238.34805260383" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="700" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="700" Y1="0" X2="700" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="700" Y1="281" X2="0" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="281" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="711.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="701.9" Y1="-11.9" X2="701.9" Y2="292.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="711.9" Y1="282.9" X2="-11.9" Y2="282.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="292.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390862" Code="GR_0034">
+      <Piece Id="668455" Code="SP00023828" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="913.47809694829" m10="0" m11="1" m12="88.6875822308404" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="600" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="0" X2="600" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="427" X2="0" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="427" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="611.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="601.9" Y1="-11.9" X2="601.9" Y2="438.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="611.9" Y1="428.9" X2="-11.9" Y2="428.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="438.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390863" Code="GR_0035">
+      <Piece Id="668456" Code="SP00023828_031" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="1517.27809694829" m10="0" m11="1" m12="88.6875822308404" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="600" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="0" X2="600" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="427" X2="0" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="427" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="611.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="601.9" Y1="-11.9" X2="601.9" Y2="438.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="611.9" Y1="428.9" X2="-11.9" Y2="428.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="438.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390864" Code="GR_0036">
+      <Piece Id="668457" Code="SP00023828_032" Type="0">
+        <Zone>
+          <MatrixRT m00="-3.49148336110938E-15" m01="-1" m02="2630.51939010562" m10="1" m11="-3.49148336110938E-15" m12="972.639459905623" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="600" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="0" X2="600" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="427" X2="0" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="427" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="611.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="601.9" Y1="-11.9" X2="601.9" Y2="438.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="611.9" Y1="428.9" X2="-11.9" Y2="428.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="438.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390865" Code="GR_0037">
+      <Piece Id="668458" Code="SP00023828_033" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="913.47809694829" m10="0" m11="1" m12="519.48758223084" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="600" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="0" X2="600" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="427" X2="0" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="427" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="611.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="601.9" Y1="-11.9" X2="601.9" Y2="438.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="611.9" Y1="428.9" X2="-11.9" Y2="428.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="438.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390866" Code="GR_0038">
+      <Piece Id="668459" Code="SP00023828_034" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="913.47809694829" m10="0" m11="1" m12="950.28758223084" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="600" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="0" X2="600" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="427" X2="0" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="427" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="611.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="601.9" Y1="-11.9" X2="601.9" Y2="438.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="611.9" Y1="428.9" X2="-11.9" Y2="428.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="438.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390867" Code="GR_0039">
+      <Piece Id="668460" Code="SP00023828_035" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="1517.27809694829" m10="0" m11="1" m12="519.48758223084" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="600" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="0" X2="600" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="600" Y1="427" X2="0" Y2="427">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="427" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="611.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="601.9" Y1="-11.9" X2="601.9" Y2="438.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="611.9" Y1="428.9" X2="-11.9" Y2="428.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="438.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390868" Code="GR_0040">
+      <Piece Id="668461" Code="SP00023824_068" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="1651.01285652475" m10="0" m11="1" m12="1173.07940620754" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="391" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="391" Y1="0" X2="391" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="391" Y1="281" X2="0" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="281" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="402.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="392.9" Y1="-11.9" X2="392.9" Y2="292.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="402.9" Y1="282.9" X2="-11.9" Y2="282.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="292.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390869" Code="GR_0041">
+      <Piece Id="668462" Code="SP00023824_069" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="2299.44958216568" m10="0" m11="1" m12="57.9338778830145" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="391" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="391" Y1="0" X2="391" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="391" Y1="281" X2="0" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="281" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="402.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="392.9" Y1="-11.9" X2="392.9" Y2="292.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="402.9" Y1="282.9" X2="-11.9" Y2="282.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="292.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+    <Group Id="390870" Code="GR_0042">
+      <Piece Id="668463" Code="SP00023824_076" Type="0">
+        <Zone>
+          <MatrixRT m00="1" m01="0" m02="2299.44958216568" m10="0" m11="1" m12="342.733877883015" m20="0" m21="0" m22="1" />
+          <Path>
+            <Attributes>
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <SideDirection value="0" />
+              <Type value="20" />
+              <Depth value="31.7" />
+              <SideInclination value="0" />
+              <ToolType value="0" />
+              <IsHole value="0" />
+            </Attributes>
+            <Segment X1="0" Y1="0" X2="391" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="391" Y1="0" X2="391" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="391" Y1="281" X2="0" Y2="281">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <Segment X1="0" Y1="281" X2="0" Y2="0">
+              <TecnoSideInfo>
+                <FirstVertexDiskUserInterruptOffset value="0" />
+                <SecondVertexDiskUserInterruptOffset value="0" />
+                <FirstVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <SecondVertexDiskMode value="EN_VERTEX_DISK_MODE_COMPLETE" />
+                <Slope value="0" />
+                <ToolInclination value="0" />
+                <SideInclination value="0" />
+                <FirstVertexInterruptOffset value="11.9" />
+                <SecondVertexInterruptOffset value="11.9" />
+                <EnabledCAMS value="CAMTaglio" />
+                <DefaultEnabledCAMS value="None" />
+                <UsedCAMS value="None" />
+                <ConsiderForCollision value="1" />
+                <SideDirection value="0" />
+                <Enabled value="1" />
+                <ForceRouter value="0" />
+                <ExcludeBore value="0" />
+                <ExcludeDisk value="0" />
+                <ExcludeWJ value="0" />
+                <ExcludeRouter value="0" />
+                <CutQuality value="-1" />
+                <EnableBevel value="0" />
+                <TecnoSideDescriptor>
+                  <SnapToolThickness value="3.8" />
+                  <SnapToolOvermaterial value="0" />
+                  <SnapSideInclination value="0" />
+                  <SnapSideDepth value="31.7" />
+                </TecnoSideDescriptor>
+              </TecnoSideInfo>
+              <TecnoPathInfo>
+                <MaterialThickness value="31.7" />
+                <SlabThickness value="0" />
+                <TableIncision value="0" />
+                <MinToolPathLengthForDiskTool value="0" />
+                <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+                <ToolOnArc value="ALWAYS_DISK" />
+                <BridgeMode value="NO" />
+                <IsEnabledWaterjetBridge value="NO" />
+                <NoCutPolygon value="NO" />
+                <BlindHole value="NO" />
+                <HoleBoundary value="NO" />
+                <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+                <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+              </TecnoPathInfo>
+            </Segment>
+            <TecnoPathInfo>
+              <MaterialThickness value="31.7" />
+              <SlabThickness value="0" />
+              <TableIncision value="0" />
+              <MinToolPathLengthForDiskTool value="0" />
+              <ToolSide value="EN_TOOL_SIDE_RIGHT" />
+              <ToolOnArc value="ALWAYS_DISK" />
+              <BridgeMode value="NO" />
+              <IsEnabledWaterjetBridge value="NO" />
+              <NoCutPolygon value="NO" />
+              <BlindHole value="NO" />
+              <HoleBoundary value="NO" />
+              <ToolSideOnGroove value="EN_TOOL_SIDE_RIGHT" />
+              <ArcInterruptsDiskOnAdjacentSegments value="NONE" />
+            </TecnoPathInfo>
+          </Path>
+        </Zone>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="1" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-11.9" Y1="-1.9" X2="402.9" Y2="-1.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="2" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="392.9" Y1="-11.9" X2="392.9" Y2="292.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="3" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="402.9" Y1="282.9" X2="-11.9" Y2="282.9" />
+        </Path>
+        <Path>
+          <Attributes>
+            <Extreme1 value="1" />
+            <Extreme2 value="1" />
+            <ExpModule value="1.9" />
+            <ToolType value="0" />
+            <ToolNumber value="1" />
+            <ToolId value="170" />
+            <OrgPolygon value="1" />
+            <OrgSide value="4" />
+            <CutIncl value="0" />
+            <SideInclination value="0" />
+            <ToolInclination value="0" />
+            <SideDirection value="0" />
+            <NeedSlowDown value="0" />
+            <Type value="276" />
+            <Depth value="31.7" />
+            <IsHole value="0" />
+          </Attributes>
+          <Segment X1="-1.9" Y1="292.9" X2="-1.9" Y2="-11.9" />
+        </Path>
+      </Piece>
+    </Group>
+  </Slab>
+</CUT_SCHEME>

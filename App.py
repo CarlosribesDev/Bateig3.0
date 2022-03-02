@@ -174,6 +174,10 @@ class App(ttk.Frame):
 
     def new_report(self):
 
+        if(self.last_slab.get() < self.first_slab.get()):
+            error('El codigo de la primera tabla \n no puede ser mayor que el de la última')
+            return False
+
         first_slab = f'SLAB{self.first_slab.get().zfill(14)}'
         last_slab = f'SLAB{self.last_slab.get().zfill(14)}'
         
@@ -264,10 +268,10 @@ class App(ttk.Frame):
         self.start_min.set("00")
         self.end_min.set("00")
         ######TEST#########
-        # self.week_day.set("Viernes")
-        # self.first_slab.insert(0,47499)
+        self.week_day.set("Martes")
+        self.first_slab.insert(0,47639)
 
-        # self.last_slab.insert(0,47505)
+        self.last_slab.insert(0,47669)
 
 
 #endregion

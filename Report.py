@@ -48,25 +48,17 @@ class Report():
             raise e
         
         #comprobar que el primero codigo existe
-        if(not self.contains_first_code(txt_slab_list)): raise SlabCodeNotFound(self.first_slab,day_file_name)
-        
+        if(not self.contains_first_code(txt_slab_list)): raise SlabCodeNotFound(self.first_slab,day_file_name)  
         #añadir slabs que pertenecen al parte
         self.add_slabs(txt_slab_list) 
-        
         #leer dimesiones y material de cada tabla
         self.update_slabs_data(folder_xml)
-       
-    
         #recuento total
-        self.get_total()
-        
-
+        self.get_total() 
         #agrupar las losas por medidas
         self.group_by_measures()
+      
        
-        
-
-        
     def contains_first_code(self,slab_list):
         
         contains_code = False
@@ -104,17 +96,14 @@ class Report():
         try:
             first_code = xml_reader.get_first_xml_code(self.first_slab)
         except Exception as e:
-           
+            
+            print('no encontrado primer codigo')
             raise e
 
         #coge los datos de todas las tablas
-        try:
-            slab_data_dic = xml_reader.get_xml_slabs_data(self.slab_code_set,first_code)
+        
+        slab_data_dic = xml_reader.get_xml_slabs_data(self.slab_code_set,first_code)
             
-        except Exception as e:
-            
-            raise e  
-
         for slab in self.slab_list:
 
             code = slab.code

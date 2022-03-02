@@ -36,15 +36,16 @@ class XmlReader():
         file_code = first_code
         code_list = list(slab_code_set)
         slab_data_dic = {}
-       
-        while(len(code_list) != 0 ):
+        num_file_not_found = 0
+        while(len(code_list) != 0 or num_file_not_found > 50):
 
             try:               
                 slab_data = self.get_slab_data(file_code,code_list)
                 if( slab_data != False):
-                    slab_data_dic.update(slab_data)        
+                    slab_data_dic.update(slab_data)      
             except:
-                break
+                
+                num_file_not_found += 1
                    
             file_code = str(int(file_code) + 1).zfill(8)  
 
@@ -61,7 +62,7 @@ class XmlReader():
             tree = ET.parse(path)
         except:
             
-            raise FileCantOpen(file_name)
+            print(f'no se encuentra {file_name}')
 
         root = tree.getroot()
         
@@ -77,6 +78,8 @@ class XmlReader():
         material_id = root[2].attrib['MaterialId']
         materials_list = data['materials']
         material = materials_list[material_id]
+
+        
 
         if(code in code_list):
             slab_data = {

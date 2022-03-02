@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ManualCommands Version="1">
+  <Commands Version="1">
+    <SlabPosition X="100.000000099182" Y="38.8699961853027" Angle="0" />
+    <Command IsCommandsParallelizationEnabled="false" Name="DiskCut" InputSource="ProgramContext.GetAvailableSeparationCuts" InputKey="PC668842_TP01,PC668844_TP01,PC668845_TP02">
+      <Data>
+        <Item Name="ConstructionPathDirectionIsReverse" Value="False" />
+        <Item Name="Side.P1.X" Value="991.535072562937" />
+        <Item Name="Side.P1.Y" Value="1736.0199961853" />
+        <Item Name="Side.P2.X" Value="991.53507256297" />
+        <Item Name="Side.P2.Y" Value="38.8699961853026" />
+        <Item Name="DiskCut" Value="&lt;DiskCut&gt;&lt;DiskCutDto Depth=&quot;42&quot; Repository=&quot;TABLE&quot; CutKeys=&quot;PC668842_TP01;PC668844_TP01;PC668845_TP02&quot; DirectionCanBeInverted=&quot;True&quot; ConstructionPathDirectionIsReverse=&quot;False&quot; OriginalStartPoint.X=&quot;991.535072562953&quot; OriginalStartPoint.Y=&quot;1680.95376430124&quot; OriginalEndPoint.X=&quot;991.535072562956&quot; OriginalEndPoint.Y=&quot;65.9537643012402&quot; IsSeparation=&quot;True&quot; IsPreCut=&quot;False&quot; IsBridge=&quot;False&quot; IsIncision=&quot;False&quot; SideInclination=&quot;0&quot; ToolInclination=&quot;0&quot; IsInternalOfThePiece=&quot;False&quot; IsDiskAndBevel=&quot;False&quot; IsUnframe=&quot;False&quot; StartPointIsOutsideMaterial=&quot;True&quot; EndPointIsOutsideMaterial=&quot;True&quot; StartFromOutside=&quot;False&quot; ForcedCompletionCut=&quot;False&quot;&gt;&lt;Segment X1=&quot;991.535072562937&quot; Y1=&quot;1736.0199961853&quot; X2=&quot;991.53507256297&quot; Y2=&quot;38.8699961853026&quot; /&gt;&lt;/DiskCutDto&gt;&lt;/DiskCut&gt;" />
+      </Data>
+    </Command>
+    <Command IsCommandsParallelizationEnabled="false" Name="DiskCut" InputSource="ProgramContext.GetAvailableSeparationCuts" InputKey="PC668841_TP01,PC668842_TP03,PC668843_TP01,PC668844_TP03">
+      <Data>
+        <Item Name="ConstructionPathDirectionIsReverse" Value="False" />
+        <Item Name="Side.P1.X" Value="2082.03507256294" />
+        <Item Name="Side.P1.Y" Value="1736.02" />
+        <Item Name="Side.P2.X" Value="2082.03507256297" />
+        <Item Name="Side.P2.Y" Value="38.8700000000001" />
+        <Item Name="DiskCut" Value="&lt;DiskCut&gt;&lt;DiskCutDto Depth=&quot;42&quot; Repository=&quot;TABLE&quot; CutKeys=&quot;PC668841_TP01;PC668842_TP03;PC668843_TP01;PC668844_TP03&quot; DirectionCanBeInverted=&quot;True&quot; ConstructionPathDirectionIsReverse=&quot;False&quot; OriginalStartPoint.X=&quot;2082.03507256295&quot; OriginalStartPoint.Y=&quot;1680.95376430124&quot; OriginalEndPoint.X=&quot;2082.03507256296&quot; OriginalEndPoint.Y=&quot;65.95376430124&quot; IsSeparation=&quot;True&quot; IsPreCut=&quot;False&quot; IsBridge=&quot;False&quot; IsIncision=&quot;False&quot; SideInclination=&quot;0&quot; ToolInclination=&quot;0&quot; IsInternalOfThePiece=&quot;False&quot; IsDiskAndBevel=&quot;False&quot; IsUnframe=&quot;False&quot; StartPointIsOutsideMaterial=&quot;True&quot; EndPointIsOutsideMaterial=&quot;True&quot; StartFromOutside=&quot;False&quot; ForcedCompletionCut=&quot;False&quot;&gt;&lt;Segment X1=&quot;2082.03507256294&quot; Y1=&quot;1736.02&quot; X2=&quot;2082.03507256297&quot; Y2=&quot;38.8700000000001&quot; /&gt;&lt;/DiskCutDto&gt;&lt;/DiskCut&gt;" />
+      </Data>
+    </Command>
+    <Command IsCommandsParallelizationEnabled="false" Name="PickAndPlacePartition" InputSource="ProgramContext.GetMovablePartitions" InputKey="SLAB00000000047562_02_02">
+      <Data>
+        <Item Name="X" Value="3532.6324915" />
+        <Item Name="Y" Value="797.567" />
+        <Item Name="Rotation" Value="0" />
+        <Item Name="Parent" Value="" />
+        <Item Name="RelativeMove.X" Value="402.1814915" />
+        <Item Name="RelativeMove.Y" Value="0" />
+        <Item Name="RelativeMove.Rotation" Value="0" />
+      </Data>
+    </Command>
+    <Command IsCommandsParallelizationEnabled="false" Name="PickAndPlacePartition" InputSource="ProgramContext.GetMovablePartitions" InputKey="SLAB00000000047562_02_01">
+      <Data>
+        <Item Name="X" Value="2220.5222819" />
+        <Item Name="Y" Value="797.567" />
+        <Item Name="Rotation" Value="0" />
+        <Item Name="Parent" Value="" />
+        <Item Name="RelativeMove.X" Value="180.5712819" />
+        <Item Name="RelativeMove.Y" Value="0" />
+        <Item Name="RelativeMove.Rotation" Value="0" />
+      </Data>
+    </Command>
+    <Command IsCommandsParallelizationEnabled="false" Name="CompletePartitionWorkings" InputSource="ProgramContext.GetCompletablePartitions" InputKey="SLAB00000000047562_01" />
+    <Command IsCommandsParallelizationEnabled="false" Name="CompletePartitionWorkings" InputSource="ProgramContext.GetCompletablePartitions" InputKey="SLAB00000000047562_02_01" />
+    <Command IsCommandsParallelizationEnabled="false" Name="CompletePartitionWorkings" InputSource="ProgramContext.GetCompletablePartitions" InputKey="SLAB00000000047562_02_02" />
+  </Commands>
+  <Data>
+    <Item Name="Config" Value="D:\BretonTouch\BrRh_PlugIns\LogCutMoveEditor\CME_00002817_CONFIG.xml" />
+    <Item Name="Schema" Value="D:\BretonTouch\BrRh_PlugIns\LogCutMoveEditor\CME_00002817_CUT_SCHEME.xml" />
+  </Data>
+</ManualCommands>
