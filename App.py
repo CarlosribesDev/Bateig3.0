@@ -50,16 +50,7 @@ def app_entry(label,entryType,frame,row,column,values):
     return entry 
 
 
-#guarda el direcorio seleccionado en el json
-def select_folder_old(path,data):
-    
-    folder_directory = filedialog.askdirectory()
-
-    if(folder_directory != ""):
-        path.set(folder_directory)
-        
-        Data.update_data(data,folder_directory)
-
+#elige el directorio seleccionado
 def select_folder(path,name):
     #busca directorio
     folder_directory = filedialog.askdirectory()
