@@ -1,8 +1,7 @@
-from itertools import tee
 import xml.etree.ElementTree as ET
 import os
-from Exceptions import DirectoryException,XmlNotFound,FileCantOpen
-from Data import load_data
+from Db import get_material
+from Exceptions import DirectoryException,XmlNotFound
 
 class XmlReader():
 
@@ -54,7 +53,6 @@ class XmlReader():
     #Lee el CUT_SCHEME.xml de una tabla y devuelve los datos
     def get_slab_data(self,file_code,code_list):
         
-
         file_name = f'CME_{file_code}_CUT_SCHEME.xml'
         path = f'{self.folder_path}/{file_name}'
 
@@ -71,16 +69,11 @@ class XmlReader():
         #Dimensiones
         length =  float(root[2].attrib['Length']) 
         width =  float(root[2].attrib['Width'])
-        thick = float(root[2].attrib['Thickness'])/10
-        
+        thick = float(root[2].attrib['Thickness'])/10  
         #Material
-        data = load_data()
         material_id = root[2].attrib['MaterialId']
-        materials_list = data['materials']
-        material = materials_list[material_id]
-
+        material = get_material(material_id)
         
-
         if(code in code_list):
             slab_data = {
                 code : {
@@ -88,13 +81,12 @@ class XmlReader():
                     'width' : width,
                     'thick' : thick,
                     'material' : material
-
-                }
-                
+                }          
             }
             code_list.remove(code)
             return slab_data
-        else: return False
+            
+        return False
        
                
         

@@ -1,13 +1,11 @@
 
-from operator import contains
-from turtle import width
 import Values
 from Measure import Measure
 from MeasureSlab import MeasureSlab
 from TxtReader import TxtReader
 from XmlReader import XmlReader
 from Exceptions import SlabCodeNotFound
-from Piece import Piece
+
 
 class Report():
     
@@ -54,10 +52,10 @@ class Report():
         #leer dimesiones y material de cada tabla
         self.update_slabs_data(folder_xml)
         #recuento total
-        self.get_total() 
-        #agrupar las losas por medidas
+        self.get_total()
+        #agrupar
         self.group_by_measures()
-      
+       
        
     def contains_first_code(self,slab_list):
         
@@ -143,7 +141,6 @@ class Report():
             if(not measure.measure_exist()):
                 self.measures_slab_list.append(measure)
         
-       
         #ordena las medias 
         self.measures_list.sort( key = lambda measure: (measure.material,measure.thick,measure.width,measure.length), reverse= True)
         self.measures_slab_list.sort( key = lambda measure: (measure.material,measure.thick), reverse= True)

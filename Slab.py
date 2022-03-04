@@ -33,6 +33,6 @@ class Slab():
         self.width = width
         self.length = length
         self.thick = thick
-        self.m2 = (length * width) / 10000
+        self.m2 = (length * width) / 1000000
 
     

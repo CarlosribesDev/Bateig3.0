@@ -8,9 +8,6 @@ class TxtReader():
         self.directory = directory
         self.file_name = file_name
 
-    
-
-
     def get_txt_date(self):
     #abre el documento del dia correspondiente en el directorio especificado
         try:

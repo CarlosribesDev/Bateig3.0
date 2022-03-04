@@ -1,9 +1,8 @@
 import time
 from tkinter import END, Tk,Label,LabelFrame,Button,ttk,filedialog,Entry,StringVar
 from Report import Report
-import Data
 from Excel import export_to_excel
-
+from Db import get_operators,set_directory,get_directory
 
 #region Utilidades
 ###################################################################################
@@ -11,13 +10,6 @@ from Excel import export_to_excel
 #    UTILIDADES
 
 ###################################################################################
-
-
-#Devulve un parte nuevo con los datos de la aplicacion
-
-
-    
-
 #Crea una nueva ventana
 def open_window(root,w,h,title):
  
@@ -59,7 +51,7 @@ def app_entry(label,entryType,frame,row,column,values):
 
 
 #guarda el direcorio seleccionado en el json
-def select_folder(path,data):
+def select_folder_old(path,data):
     
     folder_directory = filedialog.askdirectory()
 
@@ -67,6 +59,17 @@ def select_folder(path,data):
         path.set(folder_directory)
         
         Data.update_data(data,folder_directory)
+
+def select_folder(path,name):
+    #busca directorio
+    folder_directory = filedialog.askdirectory()
+    #si se ha escogido un directorio,se asigna y se actualiza la base de datos
+    if(folder_directory != ""):
+       
+        path.set(folder_directory)     
+        set_directory(folder_directory,name)
+       
+
 #endregion
 
 #region APP Escritrio  
@@ -107,7 +110,7 @@ class App(ttk.Frame):
 
         self.data.columnconfigure(1,pad=10)
         #nombre
-        self.name = app_entry("Operario",ttk.Combobox(self.data,state = "normal"),self.data,0,0,("Carlos","Jose Eduardo"))
+        self.name = app_entry("Operario",ttk.Combobox(self.data,state = "normal"),self.data,0,0,get_operators())
 
         #archivos de texto con el corte diario    
 
@@ -141,7 +144,7 @@ class App(ttk.Frame):
 
         #boton navagacion
         self.browse_button_1 = ttk.Button(self.directories, 
-        text="buscar",command=lambda:select_folder(self.folder_path_1,'UnloadingRobot_directory'),width=8).grid(row=0,column=2,padx=(0,20))
+        text="buscar",command=lambda:select_folder(self.folder_path_1,'Unloading_txt'),width=8).grid(row=0,column=2,padx=(0,20))
 
         #archivos de corte
         
@@ -149,7 +152,7 @@ class App(ttk.Frame):
         app_entry('Carpeta LogCutMoveEditor',Entry(self.directories,textvariable = self.folder_path_2,state="readonly" ,width = 50),self.directories,1,0,(" "))
 
         #boton navegacion
-        self.browse_button_2 = ttk.Button(self.directories, text="buscar",command=lambda:select_folder(self.folder_path_2,'LogCutMoveEditor_directory'),width=8).grid(row=1,column=2,padx=(0,20))
+        self.browse_button_2 = ttk.Button(self.directories, text="buscar",command=lambda:select_folder(self.folder_path_2,'LogCutMove_xml'),width=8).grid(row=1,column=2,padx=(0,20))
        
         ####BOTONES#####
 
@@ -253,11 +256,10 @@ class App(ttk.Frame):
                 error('El documento esta siendo usado')
             
     def load_data(self):
-
-        data = Data.load_data()
+       
         try:
-            self.folder_path_1.set(data['UnloadingRobot_directory'])
-            self.folder_path_2.set(data['LogCutMoveEditor_directory'])
+            self.folder_path_1.set(get_directory('Unloading_txt'))
+            self.folder_path_2.set(get_directory('LogCutMove_xml'))
         except:
             error('data.json modificado')
            
@@ -267,11 +269,14 @@ class App(ttk.Frame):
         self.end_hour.set("14")
         self.start_min.set("00")
         self.end_min.set("00")
-        ######TEST#########
-        self.week_day.set("Martes")
-        self.first_slab.insert(0,47639)
+        self.first_slab.insert(0,0)
 
-        self.last_slab.insert(0,47669)
+        self.last_slab.insert(0,0)
+        ######TEST#########
+        #self.week_day.set("Martes")
+        #self.first_slab.insert(0,47639)
+
+        #self.last_slab.insert(0,47669)
 
 
 #endregion
